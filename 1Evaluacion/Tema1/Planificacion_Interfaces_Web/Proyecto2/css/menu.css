@@ -1,0 +1,90 @@
+.menu ul {
+
+    display: flex;
+
+    padding: 0;
+
+    margin: 0;
+
+    list-style: none;
+
+}
+
+.menu a {
+
+    display: block;
+
+    padding: 0.5em;
+
+    background-color:#B1A7EE;
+
+    text-decoration: none;
+
+    color: #191C26;
+
+}
+
+.menu a:hover {
+
+    background-color:#F5D264;
+
+}
+
+.menu ul li ul {
+
+    display: none;
+
+}
+
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+
+    display: block;
+
+}
+
+body{
+  
+  background-image: url("https://media.istockphoto.com/photos/terrazzo-floor-seamless-pattern-background-picture-id1299432812?b=1&k=20&m=1299432812&s=170667a&w=0&h=oot-sKsrKx09j_QGdviFZ06WkwPa_D1Elr3qihhf5WA=");
+  background-size: 10rem;
+}
+
+#contenido { 
+    width: 1024px; margin-left: 39%; 
+}
+
+p {
+    text-align: center;
+    font-size: 1.0em;
+	font-family: Scarlett;
+    background-color:#B1A7EE;
+    margin-left: 25%;
+    margin-right: 25%;
+    color:#000B47;
+}
+
+#TituloArticuloIndex {
+    text-align: center;
+    text-shadow: 2px 2px 4px #729DD9;
+    font-size: 2.0em;
+	font-family: Verdana;
+    color:#104DA0;
+}
+
+table{
+    font-family: fantasy;
+    border: #B1A7EE 5px solid;
+    border-collapse: separate;
+}
+
+footer {
+    background-color: #B1A7EE;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: #000B47;
+  }
+
+
+
+

@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Adrip1';
+    src: url('../font_types/adrip1.ttf') format('truetype'); /* Ensure the path is correct */
+    font-style: normal;
+}
+
+.cibi {
+    margin-right: -130px;
+
+    font-family: 'Adrip1', serif; /* Applies the custom font */
+    text-align: center;
+    flex-grow: 1; /* Esto permite que el texto ocupe el centro */
+    font-size: 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background: linear-gradient(to bottom,#005283, #0191E7);
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin: 20px 0;
+}
+.menu-vertical {
+    
+    width: 200px;
+    background-color: #ccc;
+    padding: 20px;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+}
+.titular {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.titular h1 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.titular img {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+}
+footer {
+    text-align: center;
+    background-color: #006091;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    font-size: 12;
+    text-align: center;
+    flex-grow: 1; /* Esto permite que el texto ocupe el centro */
+}
+.btns {
+    height: 600px;
+    margin-left: 20px;
+    display: flex;
+    column-gap: 2rem;
+    background-color: var(--color-white-ligtblue);
+    padding: 30px;
+    background-image: radial-gradient(#0066A2, #0191E7);
+    border-radius: 26% 26% 26% 26%; 
+}
+.btn {
+    align-items: center;
+    margin-bottom: 25px; /* Separación de 12px entre botones */
+    padding: 10px 20px;
+    border-width: 4px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: Calibri, 'Times New Roman', Times, sans-serif;
+    font-size: 20px;
+    background-color: #0191E7;
+    color: var(--color-white);
+    transition:
+        scale 0.25s ease-in, 
+        opacity 0.25s ease-in, 
+        filter 0.25s ease-in;
+    &:hover{
+    scale: 1.2;}}
+
+    .btns:has(.btn:hover) .btn:not(:hover) {
+    scale: 0.8; opacity: 0.8;
+    filter: blur (4px);    }
+p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 50px;
+}

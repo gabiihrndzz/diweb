@@ -1,0 +1,160 @@
+
+.menu ul {
+
+    display: flex;
+
+    padding: 0;
+
+    margin: 0;
+
+    list-style: none;
+
+}
+
+.menu a {
+
+    display: block;
+
+    padding: 0.5em;
+
+    background-color:#B1A7EE;
+
+    text-decoration: none;
+
+    color: #191C26;
+
+}
+
+.menu a:hover {
+
+    background-color:#F5D264;
+
+}
+
+.menu ul li ul {
+
+    display: none;
+
+}
+
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+
+    display: block;
+
+}
+
+#contenido { 
+    width: 1024px; margin-left: 39%; 
+}
+
+body{
+  
+    background-image: url("https://media.istockphoto.com/photos/terrazzo-floor-seamless-pattern-background-picture-id1299432812?b=1&k=20&m=1299432812&s=170667a&w=0&h=oot-sKsrKx09j_QGdviFZ06WkwPa_D1Elr3qihhf5WA=");
+  }
+
+
+section, aside, h3 {
+
+    font-family: Arial , serif;
+
+    font-weight: normal;
+
+    
+
+}
+
+
+section {
+    float: left;
+    width: 750px; 
+    margin: 40px;
+    margin-left: 20%;
+    
+    } 
+
+article, aside {
+        display: inline-block;
+        
+    }
+    
+article {
+    background: rgb(199, 220, 180 );
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 1.2em;
+	font-family: Scarlett;
+    background-color:#B1A7EE;
+
+    }
+      
+    
+article p {
+        font-size: 0.8em;
+        text-align: left;
+        color:#000B47;
+    }
+
+    aside {
+   
+float: left;
+width: 220px;
+margin: 20px 0px;
+padding: 20px;
+background-color:#B1A7EE;
+box-shadow: 0px 2px 5px #1c1a19;
+border-radius: 10px;
+font-family: sans-serif;
+text-align: center;
+color:#000B47;
+font-size: 0.9em;
+text-transform: uppercase;
+}
+
+aside h2 {
+ padding: 30px 15px;    
+}
+
+h3 {
+    text-align: center;
+    color:#000B47;
+
+}
+
+aside div{
+    padding: 15px 30px;
+    background-color: #A2C1EC;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    
+}
+
+.img  {
+width: 60%;
+height: 40%;
+margin-left: 20%;
+}
+
+.img2  {
+    width: 110%;
+    height: 50%;
+margin-right: 50%;
+    }
+
+.img3  {
+    width: 110%;
+    height: 50%;
+
+    }
+    
+footer {
+    background-color: #B1A7EE;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: #000B47;
+  }
+

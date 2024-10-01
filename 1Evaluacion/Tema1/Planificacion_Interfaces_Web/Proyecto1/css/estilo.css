@@ -1,0 +1,272 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    background-repeat: no-repeat;
+    background: url("../imagenes_video/fondo.jpg");
+    background-size: 100%, 100%;
+    font-family: sans-serif;
+    background-attachment: fixed;
+}
+
+#agrupar {
+    width: 960px;
+    margin: 15px  auto;
+}
+
+section h1, footer h1, nav a, aside h3 {
+    font-family: Candara , serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/*cabecera*/
+article p { 
+    font-family: Calibri , serif;
+    color:  black;
+    font-weight: normal;
+    font-size: 1.3em;
+    text-align: left;
+}
+
+
+header h1 {
+    font-family: Copperplate Gothic, serif;
+    font-size: 6em;
+    font-weight: normal;
+    text-shadow: 2px 2px #0E47B6;
+    color: #A3BCEC;
+    ;
+}
+
+header h3 {
+    font-family: Candara , serif;
+    color: black;
+    font-size: 1.5em;
+}
+
+#cabecera {  
+    background-position: center;
+    padding: 80px;
+    border-radius: 10px;
+    background-color: #5078C8; /* Fondo gris oscuro */
+    box-shadow: 6px 6px 6px #335FB6;
+    ;
+    margin-bottom: 25px;
+}
+
+/* Navegación */
+nav {
+    padding: 5px 15px;  
+    background-color: #5078C8; /* Fondo gris oscuro */
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+nav a {
+    font-size: 1.5em;
+    color: #07296D;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #003AFE;
+    border-bottom: 3px;
+    outline: a;
+}
+
+/* Cuerpo */
+section {
+width: 660px; 
+margin: 20px;
+float: left;
+} 
+
+article, aside {
+    display: inline-block;
+    float: left;
+}
+
+article h3{
+padding: 10px;
+}
+
+article {
+    background-color: #5078C8; /* Fondo gris oscuro */
+    box-shadow: 6px 6px 6px #335FB6;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+  
+article p {
+    font-size: 1.3em;
+    text-align: left;
+    font-family: Calibri , serif;
+}
+
+/*columna*/
+aside {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background-color: #5078C8; /* Fondo gris oscuro */
+    box-shadow: 6px 6px 6px #335FB6;
+    border-radius: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #0E47B6;
+}
+
+aside h2 {
+    padding: 8px 15px; 
+    font-family: Candara , serif;
+    font-size: 1.5em;
+}
+
+aside h3 {
+    font-family: Candara , serif;
+    font-size: 1.2em;
+}
+
+aside div {
+    padding: 15px 30px;
+    background-color: #A3BCEC; /* Fondo gris oscuro */
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+aside p {
+    font-family: Calibri , serif;
+    font-size: 1.3em;
+}
+
+#zumba {
+    max-width: 100%;
+    max-height: 100%
+}
+
+#suplementos {
+    max-width: 100%;
+    max-height: 100%
+}
+
+/* Pie de página */
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #1B94FF; 
+    font-size: 0.8em;
+    font-family: sans-serif;
+}
+
+footer p {
+    color: #1B94FF;
+}
+
+/* Pagina de hazte socio */
+
+.registrarseFrm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  padding-left: 250px;
+}
+
+.form {
+  background-color: #5078C8; /* Fondo gris oscuro */
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px 40px;
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: #1B94FF;
+}
+
+.inputContainer {
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+}
+
+.input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #DADCE0;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 20px;
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+
+/* Hide the placeholder texts (a) */
+
+::placeholder {
+  color: transparent;
+}
+
+.label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 0 4px;
+  background-color:#5078C8;
+  color: #1B94FF;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+}
+
+.submitBtn {
+  display: block;
+  margin-left: auto;
+  padding: 15px 30px;
+  border: none;
+  background-color: #5078C8; /* Fondo gris oscuro */
+  color: #1B94FF; 
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.submitBtn:hover {
+  background-color: #fe0000;
+  transform: translateY(-2px);
+}
+
+.input:focus + .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1B94FF;
+}
+
+.input:not(:placeholder-shown)+ .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+}

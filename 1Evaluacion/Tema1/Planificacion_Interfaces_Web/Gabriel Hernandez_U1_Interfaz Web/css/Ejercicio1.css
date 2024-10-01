@@ -1,0 +1,55 @@
+body {
+    background-color: #DBEEE7;
+    display: flex; /* Usar flexbox para el diseño */
+
+}
+
+h1 {
+    color: navy;
+    font-family: Garamond, sans-serif;
+    text-align: center;
+}
+
+footer{
+    color: navy;
+    font-family: Times-New-Roman,sans-serif;
+    text-align: center;
+    margin-top: 25 px;
+}
+.barra_abajo{
+    height: 5px;
+    background-color: #333; 
+    margin: 25px 0; /* Espacio arriba y abajo */
+}
+.cabecera{
+    text-align: center;
+    font-family: Garamond;
+}
+.menu-lateral {
+    width: 160px; /* Ancho del menú */
+    background-color: #99EEFF; /* Color de fondo */
+    color: black; /* Color del texto */
+    padding: 15px; /* Espaciado interno */
+    font-family: calibri,sans-serif;
+}
+
+.menu-lateral a {
+    text-align: right;
+    color: black; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    display: block; /* Cada enlace ocupa toda la línea */
+    margin: 10px 0; /* Espacio entre enlaces */
+    font-family: Calibri,sans-serif;
+
+}
+.go{
+    display: flex; /* Usar flexbox para el diseño */
+
+}
+
+
+
+        .contenido {
+            flex: 1; /* Ocupa el resto del espacio */
+            padding: 20px; /* Espaciado interno */
+        }
