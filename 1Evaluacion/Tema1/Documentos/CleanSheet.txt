@@ -1,0 +1,7 @@
+abbr --> abreviacion 
+base --> dominio
+hr --> linea horizontal
+bdo --> varios idiomas
+col --> tema de tables
+script --> meter algo de js 
+https://docs.emmet.io/cheat-sheet/
