@@ -1,0 +1,21 @@
+Direcciones web: 
+
+http://paletton.com/
+
+https://color.adobe.com/es/create/color-wheel/
+
+http://www.colourlovers.com/
+
+Especificaciones CSS de RGB y HSL:
+
+http://www.w3schools.com/cssref/css_colors_legal.asp
+
+HTML Color Picker:
+https://www.w3schools.com/colors/colors_picker.asp
+
+Colors Tutorial:
+https://www.w3schools.com/colors/default.asp
+
+Conversor RGB – HSV
+
+https://www.calculadoraconversor.com/hsv-a-rgb-y-hexadecimal/#Conversor_de_RGB_a_HSV

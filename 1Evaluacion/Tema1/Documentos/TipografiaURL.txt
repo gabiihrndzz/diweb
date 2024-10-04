@@ -1,0 +1,16 @@
+
+Tipografía
+Requisitos de finalización
+Typetester 
+
+http://www.typetester.org/
+
+Conversor de px a em, y viceversa:
+
+http://www.w3schools.com/tags/ref_pxtoemconversion.asp
+
+La importancia de la tipografía:  
+
+http://blog.eltallerweb.com/la-importancia-de-la-tipografia-tambien-en-la-web-parte-ii/
+
+Última modificación: viernes, 20 de septiembre de 2019, 13:10
