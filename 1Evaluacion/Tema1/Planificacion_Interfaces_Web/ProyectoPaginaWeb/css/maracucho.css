@@ -14,9 +14,12 @@ body {
     font-family: Arial, sans-serif;
 }
 header {
-    background: linear-gradient(to bottom,#005283, #0191E7);
+    background: url('../imagenes_video/maracucho.jpg');
     padding: 20px;
     color: white;
+    background-position: center calc(0% - 700px);
+    background-size: cover; /* Asegura que la imagen cubra todo el header */
+    
 }
 
 .container {

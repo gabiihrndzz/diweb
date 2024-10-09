@@ -21,9 +21,11 @@ body {
     font-family: Arial, sans-serif;
 }
 header {
-    background: linear-gradient(to bottom,#005283, #0191E7);
+    background: url('../imagenes_video/vs.jpg');
     padding: 20px;
     color: white;
+    background-size: cover; /* Asegura que la imagen cubra todo el header */
+    background-position: center calc(0% - 1000px); /* Mueve la imagen 50px hacia arriba */
 }
 
 .container {
@@ -41,12 +43,14 @@ header {
     padding: 20px;
 }
 .titular {
+    margin-right: 520px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
 .titular h1 {
+    margin-left:250px;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;

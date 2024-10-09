@@ -22,9 +22,12 @@ body {
     font-family: Arial, sans-serif;
 }
 header {
-    background: linear-gradient(to bottom,#005283, #0191E7);
+    background: url('../imagenes_video/mmcd1.jpg');
     padding: 20px;
     color: white;
+    background-size: cover; /* Asegura que la imagen cubra todo el header */
+    background-position: center calc(0% - 700px); 
+
 }
 
 .container {
