@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Desplegable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: none;
+            z-index: 2; /* Debajo del menú */
+        }
+        
+        .content {
+            transition: filter 0.3s ease;
+            padding: 20px;
+        }
+        .menu-item {
+            padding: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay" id="overlay"></div>
+    <div class="menu" id="menu">
+        <div class="menu-item">Opción 1</div>
+        <div class="menu-item">Opción 2</div>
+        <div class="menu-item">Opción 3</div>
+    </div>
+    <div class="content" id="content">
+        <button id="toggleMenu">Abrir Menú</button>
+        <p>Aquí está el contenido de la página. Al abrir el menú, este contenido se desenfocará.</p>
+    </div>
+
+    <script>
+        const menu = document.getElementById('menu');
+        const overlay = document.getElementById('overlay');
+        const toggleMenu = document.getElementById('toggleMenu');
+        const content = document.getElementById('content');
+
+        toggleMenu.addEventListener('click', () => {
+            menu.classList.toggle('open');
+            overlay.classList.toggle('active');
+            // Aplica desenfoque solo al contenido
+            content.style.filter = menu.classList.contains('open') ? 'blur(5px)' : 'none';
+        });
+
+        overlay.addEventListener('click', () => {
+            menu.classList.remove('open');
+            overlay.classList.remove('active');
+            content.style.filter = 'none';
+        });
+    </script>
+</body>
+</html>

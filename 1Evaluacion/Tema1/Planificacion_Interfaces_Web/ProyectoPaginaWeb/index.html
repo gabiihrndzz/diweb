@@ -3,69 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css"> <!-- Asegúrate de que la ruta sea correcta -->
+    <link rel="stylesheet" href="css/index.css">
     <title>Cruzzi Cafu 922</title>
     <link rel="icon" href="imagenes_video/cibi.ico" type="image/x-icon">
-    
 </head>
-    <body>
-        <header>
-    <div class="container"> 
-        <!-- Imagen a la izquierda -->
-        <img src="imagenes_video/cruzpng.png" alt="Cruz de Cruz Cafuné, que él mismo usa en sus conciertos cuando suena la canción Cangrinaje" width="80" height="80" alt="Imagen"/>
-        
-        <!-- Texto centrado -->
-        <h1 class="cibi">  Cruz Cafuné</h1>
-
-        <img src="imagenes_video/cruzcafune.jpg" alt="Cruz Cafune desde un plano bajo"  height="200" alt="Imagen"/>
-
-    </div>
-</header>
-
-</div>
-
-    <!-- Auxiliary Header with Menu -->
-    <div class="container">
-        <!-- Vertical Menu -->
-        <div class="btns">
-            <ul>
-                <button class="btn"><a href="index.html"><b>INICIO</b></a></button>
-                <p></p>
-                <button class="btn"><a href="portfolio/blues.html">BLU€$</a></button>
-                <p></p>
-                <button class="btn"><a href="portfolio/mmcd.html">ME MUEVO CON DIOS</a></button>
-                <p></p>
-                <button class="btn"><a href="portfolio/ccv.html">☉CÁNCER ↑CAPRICORNIO ☾VIRGO</a></button>
-                <p></p>
-                <button class="btn"><a href="portfolio/m922.html">MOONLIGHT922</a></button>
-                <p></p>
-                <button class="btn"><a href="portfolio/vs.html">VISION TUNEL</a></button>
-                <p></p>
-                <button class="btn"><a href="portfolio/maracucho.html">MARACUCHO BUENO/MUERE CHIQUITO</a></button>
-            </ul>
+<body>
+    <header>
+        <div class="container"> 
+            <img src="imagenes_video/cruzpng.png" alt="Cruz de Cruz Cafuné" width="80" height="80" />
+            <h1 class="cibi">Cruz Cafuné</h1>
+            <img src="imagenes_video/cruzcafune.jpg" alt="Cruz Cafuné" height="200" />
         </div>
+    </header>
 
-        <!-- Content Area -->
-        <div class="content">
-            <!-- Titular Section -->
-            <div class="titular" >
-                <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biografía</h1>
-                
-            </div>
-            <!-- Main Content -->
-            <p>Tras sus dos discos en solitario “Maracucho Bueno Muere Chiquito” y “Moonlight922”, y su EP “Visión Túnel”, Cruz Cafuné abrió una nueva etapa con su álbum “Me Muevo Con Dios”, un disco tan esperado que consiguió hacer sold out en la gira antes de que este viera la luz. <br><br></p>
-            <p>    El tinerfeño volvía a colocarse en el top de las listas de éxitos con este nuevo trabajo y batía todos los récords siendo un álbum principalmente de rap, aunque abarca otros estilos como el Jersey Club, reggaeton o R&B.<br><br></p>
-              <p>  Colándose en el top #2 mundial de Spotify, top #1 en Apple Music y alcanzando el 4º mejor debut de un álbum español de la historia de Spotify Spain, es un disco que plasma su identidad bajo el concepto del tiburón.<br><br></p>
-                <p>Ahora, el artista ha sorprendido con un EP inesperado bajo el título “blu€s”, el cual ha nacido en medio de los conciertos de la gira con la intención de crear música por el simple placer de hacerlo. En él, encontramos una gran variedad de estilos, desde sexy drill hasta blues, pasando por el jerk o el dancehall.<br><br></p>
-             <p>Su background cultural canario a medio camino entre África, Europa y América Latina, sus melodías relajadas en contraste a las letras directas y su revisada proposición de música pop, le han convertido en mitad crooner mitad rapero con un ecléctico e interesante cuerpo de trabajo.<br><br></p>
-        </div>
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/05MNxxrgNgjHcfRDtF3bEZ?utm_source=generator&theme=0" width="500" height="750" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <div class="overlay" id="overlay"></div>
+    <div class="menu" id="menu">
+        <div class="btn"><a href="index.html"><b>INICIO</b></a></div>
+        <div class="btn"><a href="portfolio/blues.html">BLU€$</a></div>
+        <div class="btn"><a href="portfolio/mmcd.html">ME MUEVO CON DIOS</a></div>
+        <div class="btn"><a href="portfolio/ccv.html">☉CÁNCER ↑CAPRICORNIO ☾VIRGO</a></div>
+        <div class="btn"><a href="portfolio/m922.html">MOONLIGHT922</a></div>
+        <div class="btn"><a href="portfolio/vs.html">VISION TUNEL</a></div>
+        <div class="btn"><a href="portfolio/maracucho.html">MARACUCHO BUENO/MUERE CHIQUITO</a></div>
     </div>
 
-    <!-- Footer -->
+    <div class="content" id="content">
+        <button class="btn" id="toggleMenu">Abrir Menú</button>
+        <!-- Contenido principal -->
+        <div class="descripcion-inner">
+            <p>Tras sus dos discos en solitario “Maracucho Bueno Muere Chiquito” y “Moonlight922”, y su EP “Visión Túnel”, Cruz Cafuné abrió una nueva etapa con su álbum “Me Muevo Con Dios”, un disco tan esperado que consiguió hacer sold out en la gira antes de que este viera la luz.</p>
+
+           <p>El tinerfeño volvía a colocarse en el top de las listas de éxitos con este nuevo trabajo y batía todos los récords siendo un álbum principalmente de rap, aunque abarca otros estilos como el Jersey Club, reggaeton o R&B. Su capacidad para fusionar géneros ha sido uno de los sellos distintivos de su carrera, lo que le ha permitido atraer a una audiencia diversa y expandir su influencia en la música urbana.</p>
+           
+           <p>Colándose en el top #2 mundial de Spotify, top #1 en Apple Music y alcanzando el 4º mejor debut de un álbum español de la historia de Spotify Spain, es un disco que plasma su identidad bajo el concepto del tiburón. Este concepto no solo se refleja en su música, sino también en su estética visual y en la narrativa que construye a lo largo de sus proyectos. Cruz utiliza el tiburón como símbolo de fuerza y resiliencia, representando su lucha y crecimiento personal en la industria musical.</p>
+           
+           <p>Ahora, el artista ha sorprendido con un EP inesperado bajo el título “blu€s”, el cual ha nacido en medio de los conciertos de la gira con la intención de crear música por el simple placer de hacerlo. En él, encontramos una gran variedad de estilos, desde sexy drill hasta blues, pasando por el jerk o el dancehall. Esta versatilidad demuestra su habilidad para adaptarse y experimentar con diferentes sonoridades, manteniendo siempre su esencia única.</p>
+           
+           <p>Su background cultural canario a medio camino entre África, Europa y América Latina, sus melodías relajadas en contraste a las letras directas y su revisada proposición de música pop, le han convertido en mitad crooner mitad rapero con un ecléctico e interesante cuerpo de trabajo. Esta mezcla de influencias se traduce en letras que abordan temas de identidad, amor y la vida cotidiana, resonando con un público amplio que se siente identificado con su mensaje.</p>
+           
+           <p>Cruz Cafuné no solo se ha destacado por su música, sino también por su autenticidad y conexión con sus seguidores. A través de las redes sociales, comparte su vida, sus pensamientos y su proceso creativo, creando una comunidad sólida que lo apoya en cada paso de su carrera. Esta relación cercana con su audiencia es fundamental en la era digital, donde la interacción directa puede marcar la diferencia entre un artista y su público.</p>
+           
+           <p>Además, su compromiso con la cultura canaria y su deseo de llevarla al mundo es evidente en cada uno de sus proyectos. Cruz ha trabajado para visibilizar las raíces y tradiciones de su tierra, incorporando elementos culturales en su música y presentaciones. Este enfoque no solo enriquece su trabajo, sino que también contribuye a la diversidad en la música urbana, ofreciendo una perspectiva fresca y auténtica.</p>
+           
+           <p>En cuanto a sus colaboraciones, Cruz Cafuné ha sabido rodearse de otros artistas talentosos que complementan su estilo y visión. Colaboraciones con nombres reconocidos en la escena musical han resultado en temas que han sido bien recibidos tanto por la crítica como por el público. Estas alianzas no solo amplían su alcance, sino que también fomentan un sentido de comunidad dentro de la música urbana.</p>
+           
+           <p>El impacto de Cruz en la música contemporánea va más allá de sus números en las listas de éxitos. Su capacidad para contar historias y conectar emocionalmente con su audiencia lo convierte en un narrador excepcional. Cada álbum y EP es una nueva oportunidad para explorar diferentes facetas de su vida y su arte, lo que mantiene a sus seguidores ansiosos por más.</p>
+           
+           <p>A lo largo de su carrera, ha enfrentado desafíos y críticas, pero su determinación y pasión por la música lo han llevado a superar obstáculos y seguir creciendo. Cruz Cafuné es un ejemplo de cómo la autenticidad y el trabajo duro pueden llevar a un artista a alcanzar sus sueños, inspirando a otros a seguir su propio camino en la música y en la vida.</p>
+           
+           <p>En conclusión, Cruz Cafuné se ha consolidado como una de las figuras más relevantes de la música urbana en España. Con su estilo único, su capacidad para fusionar géneros y su conexión con su audiencia, ha logrado dejar una huella imborrable en la escena musical. A medida que continúa evolucionando y explorando nuevas sonoridades, el futuro parece brillante para este talentoso artista, que sin duda seguirá sorprendiendo y deleitando a sus seguidores con su música.</p>
+           
+           <p>Su trayectoria es un testimonio de la riqueza de la música contemporánea y de la importancia de la diversidad en la creación artística. Cruz Cafuné es más que un rapero; es un innovador, un artista comprometido con su cultura y un referente para muchos jóvenes que buscan hacerse un nombre en el mundo de la música. Con cada nuevo lanzamiento, nos invita a sumergirnos en su universo, lleno de matices y emociones, y a descubrir la magia que se esconde detrás de su arte.</p>
+          
+       </div>
+       <iframe class="iframe" src="https://open.spotify.com/embed/playlist/05MNxxrgNgjHcfRDtF3bEZ?utm_source=generator&theme=0" width="700px" height="700px"  allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+
     <footer>
-        <p > © 2024 Cruz Cafuné Todos los derechos reservados. Carlos Bruñas Zamorín</p>
+        <p>© 2024 Cruz Cafuné Todos los derechos reservados. Carlos Bruñas Zamorín</p>
     </footer>
 
+    <script>
+        const menu = document.getElementById('menu');
+        const overlay = document.getElementById('overlay');
+        const toggleMenu = document.getElementById('toggleMenu');
+        const content = document.getElementById('content');
+
+        toggleMenu.addEventListener('click', () => {
+            menu.classList.toggle('open');
+            overlay.classList.toggle('active');
+            content.style.filter = menu.classList.contains('open') ? 'blur(5px)' : 'none';
+        });
+
+        overlay.addEventListener('click', () => {
+            menu.classList.remove('open');
+            overlay.classList.remove('active');
+            content.style.filter = 'none';
+        });
+
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.scrollY;
+
+            if (scrollPosition < 340) {
+                menu.style.top = '340px'; // Posición inicial
+            } else {
+                menu.style.top = '0'; // Coloca el menú en la parte superior
+            }
+        });
+    </script>
 </body>
 </html>

@@ -1,11 +1,30 @@
 h1{
     background-color: lightskyblue;
+    display:inline-block;
+    height: 40px;
+    width: 208px;
 }
 
 h2{
+    display: grid;
     background-color: blue;
+
 }
 
 p{
     background-color: lightblue;
 }
+
+ul{
+    background-color:blueviolet;
+    display:inline;
+}
+
+img {
+display: block;
+background-color: rgb(20, 145, 254);
+}
+a{
+    
+    visibility: visible;
+} 

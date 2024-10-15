@@ -23,12 +23,15 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
+    margin: 0;
 }
 header {
-    background: linear-gradient(to bottom,#005283, #0191E7);
-    padding: 20px;
+    background: url('../imagenes_video/cruzcafune.jpg');
+    padding: 50px;
     color: white;
+    background-size: cover; /* Asegura que la imagen cubra todo el header */
+    background-position: center calc(0% - 450px); 
+    z-index:800;
 }
 .menu-vertical {
     
@@ -38,6 +41,7 @@ header {
 .content {
     flex: 1;
     padding: 20px;
+    transition: filter 0.3s ease;
 }
 .titular {
     display: flex;
@@ -72,6 +76,7 @@ footer {
     font-size: 12;
     text-align: center;
     flex-grow: 1; /* Esto permite que el texto ocupe el centro */
+    z-index:23;
 }
 .btns {
     height: 600px;
@@ -79,12 +84,15 @@ footer {
     display: flex;
     column-gap: 2rem;
     background-color: var(--color-white-ligtblue);
-    padding: 30px;
+    padding: 50px;
     background-image: radial-gradient(#0066A2, #0191E7);
     border-radius: 26% 26% 26% 26%; 
 }
 .btn {
+    margin-top: 10px;
     align-items: center;
+    margin-left:20px;
+    margin-right:10px;
     background-color: #0191E7;
     margin-bottom: 25px; /* Separación de 12px entre botones */
     padding: 10px 20px;
@@ -107,5 +115,69 @@ footer {
 p{
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-right: 50px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.menu.open {
+    left: 0; /* Despliega el menú */
+}
+.menu {
+    position: fixed;
+    left: -400px; /* Fuera de la pantalla */
+    width: 400px;
+    height: 100%;
+    background-color: #ffffff;
+    color: white;
+    transition: left 0.3s ease;
+    z-index: 1000; /* Asegúrate de que esté por encima */
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 900; /* Debajo del menú */
+}
+.overlay.active {
+    display: block; /* Muestra el filtro */
+}
+.menu-item {
+    padding: 35px;
+    cursor: pointer;
+}
+.iframe {
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+    border: 2px solid #ccc; /* Borde */
+    overflow: hidden; /* Ocultar contenido que se desborde */
+    margin-left: 450px;
+}
+.descripcion-inner  {
+    margin-right: 450px;
+    margin-left: 450px;
+
+
+}
+
+.menu {
+    position: fixed; /* Mantiene el menú fijo */
+    top: 340px; /* Margen superior inicial */
+    left: -400px; /* Fuera de la pantalla */
+    width: 400px;
+    height: 100%;
+    background-color: #ffffff;
+    color: black; /* Cambia el color del texto si es necesario */
+    transition: top 0.3s ease; /* Suaviza el movimiento */
+    z-index: 1000; /* Asegúrate de que esté por encima */
+}
+.content {
+    padding: 20px;
+    transition: filter 0.3s ease;
 }
