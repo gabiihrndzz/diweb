@@ -156,7 +156,8 @@ iframe {
     max-width: 100%; /* Asegura que no exceda el ancho del contenedor */
     height: 700px; /* Altura fija */
     display: block; /* Cambia a block para que funcione con el centrado */
-    margin: 0 auto;}
+    margin: 0 auto;
+}
 .descripcion-inner  {
     margin-right: 550px;
     margin-left: 550px;
@@ -177,18 +178,13 @@ iframe {
     padding: 20px;
     transition: filter 0.3s ease;
 }
-.sangreyfe{
+.fotocontent{
     max-width: 100%;
     height: auto;
     display: grid;
     place-items: center;
 }
 
-.concierto{
-    max-width: 100%;
-    height: auto;
-    display: grid;
-    place-items: center;}
 a{
     color: inherit;
     text-decoration: none; 

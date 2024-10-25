@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:lightblue;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /*flex-start, flex-end, center, space-between, space-around, space-overly*/
+    flex-wrap: wrap; 
+    /*row, rowreverse, column, columnreverse*/
+    height: 200px;
+    margin:20px auto;
+    padding: 10px;
+    width: 60%;
+    /*wrap nowrap /wrap-reverse*/
+}
+
+.container div {
+    background-color:green;
+    border: 1px solid black;
+    height: 50px;
+    width:250px;
+}

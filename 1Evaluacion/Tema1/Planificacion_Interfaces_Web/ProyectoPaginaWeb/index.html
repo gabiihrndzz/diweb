@@ -39,7 +39,7 @@
            
            <p class="p1">Ahora, el artista ha sorprendido con un EP inesperado bajo el título “blu€s”, el cual ha nacido en medio de los conciertos de la gira con la intención de crear música por el simple placer de hacerlo. En él, encontramos una gran variedad de estilos, desde sexy drill hasta blues, pasando por el jerk o el dancehall. Esta versatilidad demuestra su habilidad para adaptarse y experimentar con diferentes sonoridades, manteniendo siempre su esencia única.</p>
            
-           <img src="imagenes_video/sangreyfe.png" class="sangreyfe" alt="Foto en Me Muevo Con Dios">
+           <img src="imagenes_video/sangreyfe.png" class="fotocontent" alt="Foto en Me Muevo Con Dios">
 
            <p class="p1">Su background cultural canario a medio camino entre África, Europa y América Latina, sus melodías relajadas en contraste a las letras directas y su revisada proposición de música pop, le han convertido en mitad crooner mitad rapero con un ecléctico e interesante cuerpo de trabajo. Esta mezcla de influencias se traduce en letras que abordan temas de identidad, amor y la vida cotidiana, resonando con un público amplio que se siente identificado con su mensaje.</p>
            
@@ -47,7 +47,7 @@
            
            <p class="p1">Además, su compromiso con la cultura canaria y su deseo de llevarla al mundo es evidente en cada uno de sus proyectos. Cruz ha trabajado para visibilizar las raíces y tradiciones de su tierra, incorporando elementos culturales en su música y presentaciones. Este enfoque no solo enriquece su trabajo, sino que también contribuye a la diversidad en la música urbana, ofreciendo una perspectiva fresca y auténtica.</p>
            
-           <img src="imagenes_video/concierto.jpg" class="concierto" alt="Foto en Concierto">
+           <img src="imagenes_video/concierto.jpg" class="fotocontent" alt="Foto en Concierto">
 
            <p class="p1">En cuanto a sus colaboraciones, Cruz Cafuné ha sabido rodearse de otros artistas talentosos que complementan su estilo y visión. Colaboraciones con nombres reconocidos en la escena musical han resultado en temas que han sido bien recibidos tanto por la crítica como por el público. Estas alianzas no solo amplían su alcance, sino que también fomentan un sentido de comunidad dentro de la música urbana.</p>
             
@@ -75,58 +75,64 @@
     </footer>
 
     <script>
-        const menu = document.getElementById('menu');
-        const overlay = document.getElementById('overlay');
-        const toggleMenu = document.getElementById('toggleMenu');
-        const content = document.getElementById('content');
-        const body = document.body; // Referencia al body
-    
-        toggleMenu.addEventListener('click', () => {
-            const isOpen = menu.classList.toggle('open');
-            overlay.classList.toggle('active');
-            content.style.filter = isOpen ? 'blur(5px)' : 'none';
-    
-            // Agregar o quitar la clase para desactivar el scroll
-            body.classList.toggle('no-scroll', isOpen);
-        });
-    
-        overlay.addEventListener('click', () => {
-            menu.classList.remove('open');
-            overlay.classList.remove('active');
-            content.style.filter = 'none';
-            
-            // Quitar la clase para habilitar el scroll
-            body.classList.remove('no-scroll');
-        });
+    const menu = document.getElementById('menu');
+    const overlay = document.getElementById('overlay');
+    const toggleMenu = document.getElementById('toggleMenu');
+    const content = document.getElementById('content');
+    const body = document.body; // Referencia al body
+
+    toggleMenu.addEventListener('click', () => {
+        const isOpen = menu.classList.toggle('open');
+        overlay.classList.toggle('active');
+        content.style.filter = isOpen ? 'blur(5px)' : 'none';
+
+        // Agregar o quitar la clase para desactivar el scroll
+        body.classList.toggle('no-scroll', isOpen);
+
+        // Verificar si el menú está vacío y aplicar clase
+        if (menu.children.length === 0) {
+            menu.classList.add('blurred');
+        } else {
+            menu.classList.remove('blurred');
+        }
+    });
+
+    overlay.addEventListener('click', () => {
+        menu.classList.remove('open');
+        overlay.classList.remove('active');
+        content.style.filter = 'none';
+
+        // Quitar la clase para habilitar el scroll
+        body.classList.remove('no-scroll');
+        menu.classList.remove('blurred'); // Asegúrate de quitar la clase al cerrar
+    });
+
+    window.addEventListener('scroll', function() {
+        const scrollPosition = window.scrollY;
+
+        if (scrollPosition < 245) {
+            menu.style.position = 'absolute'; // Mantener en posición absoluta
+            menu.style.top = '245px'; // Posición inicial
+        } else {
+            menu.style.position = 'fixed'; // Cambiar a posición fija
+            menu.style.top = '0'; // Coloca el menú en la parte superior
+        }
+    });
+        
+        const menu1 = document.getElementById('toggleMenu');
     
         window.addEventListener('scroll', function() {
-            const scrollPosition = window.scrollY;
+            const scrollPosition1 = window.scrollY;
     
-            if (scrollPosition < 340) {
-                menu.style.position = 'absolute'; // Mantener en posición absoluta
-                menu.style.top = '340px'; // Posición inicial
+            if (scrollPosition1 < 370) {
+                menu1.style.position = 'absolute'; // Mantener en posición absoluta
+                menu1.style.top = '370px'; // Posición inicial
             } else {
-                menu.style.position = 'fixed'; // Cambiar a posición fija
-                menu.style.top = '0'; // Coloca el menú en la parte superior
+                menu1.style.position = 'fixed'; // Cambiar a posición fija
+                menu1.style.top = '0'; // Coloca el menú en la parte superior
             }
         });
     </script>
-       
-       <script>
-            const menu1 = document.getElementById('toggleMenu');
-        
-            window.addEventListener('scroll', function() {
-                const scrollPosition1 = window.scrollY;
-        
-                if (scrollPosition1 < 340) {
-                    menu1.style.position = 'absolute'; // Mantener en posición absoluta
-                    menu1.style.top = '340px'; // Posición inicial
-                } else {
-                    menu1.style.position = 'fixed'; // Cambiar a posición fija
-                    menu1.style.top = '0'; // Coloca el menú en la parte superior
-                }
-            });
-        </script>
         
 </body>
 </html>
