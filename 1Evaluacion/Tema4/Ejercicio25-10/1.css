@@ -5,15 +5,15 @@
 .container{
     background-color:lightblue;
     display:flex;
-    flex-direction: row;
     justify-content:space-around;
     /*flex-start, flex-end, center, space-between, space-around, space-overly*/
-    flex-wrap: wrap; 
+    flex-direction: row;
     /*row, rowreverse, column, columnreverse*/
     height: 200px;
     margin:20px auto;
     padding: 10px;
     width: 60%;
+    flex-wrap: wrap; 
     /*wrap nowrap /wrap-reverse*/
 }
 
