@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h4,
+  p {
+    margin: 0px;
+  }
+
+  
+  body {
+    background-color: white;
+  }
+  .container {
+    font-family: "Lobster", cursive;
+    margin: 20px auto;
+    width: 85%;
+  }
+  
+  /* El contenedor flex para la primera fila de contenido */
+  .content_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 1em;
+      width: 100%;
+    }
+
+    .chicagoFreestyle{
+        width: 100%;
+        text-align: left;
+        background-color: aliceblue;
+        display: flex;
+    }
+    
+    .chicagoFreestyle hr{
+      width: 96%;
+      border: 1px solid black;
+      text-align: left;
+      margin-left: 10px;
+      margin-right: auto;
+    }
+
+    .isthislove {
+        width: 90%;
+        background-color: aquamarine;
+        
+}
+    .isthislove img{
+        padding:10px;
+        margin-top: 10px;
+        max-width: 100%;
+    height: auto;
+
+    }
+
+  header {
+    background-color: #666666;
+    border-bottom: 1px solid #666666;
+    margin-bottom: 1em;
+    color: white;
+    padding: 1em;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  header div{
+    display: flex;
+  }
+  header img{
+    height: 60px;
+    margin-right:10px;
+  }
+
+  /* El menú */
+
+  nav {
+    display: flex;
+    background-color: red;
+    justify-content:end;
+    text-align: right;
+    align-items: right;
+}
+  nav div{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: red;
+  }
+  
+  /* El elemento principal */
+  main {
+    padding: 1em;
+    text-align: justify;
+    width: 100%;
+  }
+  
+  
+
+  /* Pie de la página */
+  footer {
+      border-top: 1px solid #666666;
+      align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    padding: 2em;
+    background-color: #666666;
+    color: #fff;
+  }
+  
+  footer img {
+    width: 30px;
+  }
+  
