@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h4,
+  p {
+    margin: 0px;
+  }
+
+  
+  body {
+    background-color: white;
+  }
+
+
+    header {
+      background-color: #666666; 
+      border-bottom: 1px solid #666666;
+      margin-bottom: 1em; 
+      color: white; 
+      padding: 1em; 
+      width: 100%; 
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    header div {
+      display: grid;
+      grid-auto-flow: column; 
+      align-items: center;
+    }
+    
+    header img {
+      height: 60px; 
+      margin-right: 10px;
+    }
+    
+
+    nav {
+      display: block;
+      background-color: red;
+      text-align: right;
+    }
+    
+    nav div {
+      display: inline-block; 
+      color: white; 
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 40px;
+      padding-left: 40px;
+      background-color: red;
+      text-align: center;
+    }
+      
+  main {
+    padding: 1em;
+    text-align: justify;
+    width: 100%;
+  }
+  
+  .container {
+    font-family: "Lobster", cursive;
+    margin: 20px auto;
+    width: 85%;
+  }
+  
+  .content_wrapper {
+    display: grid; 
+    grid-template-columns: 2fr 0.85fr; /* 2fr para el texto y 1fr para las fotos */
+    gap: 20px; /* Espacio entre las columnas */
+    margin-bottom: 1em;
+    width: 100%;
+  }
+  
+  .contenido {
+    width: 100%;
+    text-align: left;
+    background-color: aliceblue;
+  }
+  
+  .contenido hr {
+    width: 96%;
+    border: 1px solid black;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: auto;
+  }
+  
+  .fotos {
+    display: grid; 
+    background-color: aquamarine;
+    width: 90%;
+  }
+  
+  .fotos img {
+    margin-top: 10px;
+    width: 80%; /* Reducimos el tamaño de las imágenes al 80% del contenedor */
+    height: auto; /* Mantiene las proporciones */
+    display: block; /* Asegura que las imágenes se apilen verticalmente */
+    margin-left: auto; /* Centra las imágenes horizontalmente */
+    margin-right: auto;
+  }
+  
+  /* Pie de la página */
+  footer {
+    border-top: 1px solid #666666;
+    display: grid;
+    margin-top: 1em;
+    padding: 2em;
+    background-color: #666666;
+    color: #fff;
+  }
+  
+  footer img {
+      text-align: right;
+      width: 30px;
+  }
+  .fotosfooter{
+    justify-content: end;
+    text-align: right;
+
+  }
+  
