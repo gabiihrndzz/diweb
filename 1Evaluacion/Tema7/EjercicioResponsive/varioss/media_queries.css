@@ -63,16 +63,29 @@ header{
 
 
 @media screen and (min-width:993px) {
-    header{
-        background-color: yellow;
-        text-align:center;
-        padding-top: 0em;
-        width:33.333333%;
-        float: left;
-    }
     
-        .black,.red, .blue, .green, .aliceblue{
-        float: left;
-        width:33.333333%;
+    .red, .blue, .green{
+    float: left;
+    width:33.333333%;
     }
+    .black,.aliceblue{
+        float: left;
+        width:50%;
+        height: 75px;
+
+    }
+
 }
+@media (orientation: landscape) {
+    header {
+      color: green;           
+      background-color: orange;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    header {
+      color: black;           
+      background-color: yellow;
+    }
+  }
