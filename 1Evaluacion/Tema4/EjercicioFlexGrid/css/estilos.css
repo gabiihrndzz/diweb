@@ -17,11 +17,15 @@ p {
   margin: 0;
   padding: 0;
 }
-
 body {
   color: #121867;
   font-family: "Lato", sans-serif;
   font-weight: bolder;
+}
+
+.contenido{
+  margin: 26px auto;
+  width: 80%;
 }
 
 nav, .container, footer {
@@ -224,4 +228,151 @@ footer section {
 
 footer section img {
   width: 40px;
+}
+
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 1.3em; /* Reduce el tamaño del título en móviles */
+}
+.texto {
+    font-size: 0.4em; /* Reduce el tamaño del párrafo en móviles */
+    text-align: center;
+}
+main{
+  font-size: 0.8em;
+
+}
+
+body{
+  width: 80%;
+}
+
+img{
+  width: 50%;
+}
+.bottleimgI{
+  width: 10%;
+}
+
+.bottleimgR{
+  width: 10%;
+}
+.barraIzq {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px 20px;
+  margin: 20px 0;
+  border-radius: 10%;
+  background-color: #121867;
+  color: rgb(243, 55, 132);
+  text-align: justify;
+  width: 200px;
+  z-index: 120;
+}
+.contenido{
+  margin: 26px auto;
+  width: 70%;
+
+}
+   }
+
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.3em; /* Reduce el tamaño del título en móviles */
+}
+.texto {
+    font-size: 0.4em; /* Reduce el tamaño del párrafo en móviles */
+    text-align: center;
+}
+main{
+  font-size: 0.8em;
+
+}
+
+body{
+  width: 80%;
+}
+
+img{
+  width: 50%;
+}
+.bottleimgI{
+  width: 10%;
+}
+
+.bottleimgR{
+  width: 10%;
+}
+.barraIzq {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px 20px;
+  margin: 20px 0;
+  border-radius: 10%;
+  background-color: #121867;
+  color: rgb(243, 55, 132);
+  text-align: justify;
+  width: 200px;
+  z-index: 120;
+}
+.contenido{
+  margin: 26px auto;
+  width: 60%;
+}   }
+
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.3em; /* Reduce el tamaño del título en móviles */
+}
+.texto {
+    font-size: 0.4em; /* Reduce el tamaño del párrafo en móviles */
+    text-align: center;
+}
+main{
+  font-size: 0.8em;
+
+}
+
+body{
+  width: 60%;
+}
+
+img{
+  width: 50%;
+}
+.bottleimgI{
+  width: 10%;
+}
+
+.bottleimgR{
+  width: 10%;
+}
+.barraIzq {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px 20px;
+  margin: 20px 0;
+  border-radius: 10%;
+  background-color: #121867;
+  color: rgb(243, 55, 132);
+  text-align: justify;
+  width: 200px;
+  z-index: 120;
+}
+.contenido{
+  margin: 0px auto;
+  margin-left:-10px;
+  width: 100%;
+
+}
+
 }

@@ -1,0 +1,78 @@
+.container{
+    margin:0 auto;
+    width:90%;
+}
+
+.container > *{
+    height: 150px;
+}
+
+header{
+    background-color: yellow;
+    padding-top: 2em;
+    text-align:center;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.aliceblue{
+    background-color: aliceblue;
+}
+
+.black{
+    background-color: black;
+    height: 75px;
+}
+
+
+@media screen and (max-width:576px) {
+    .container{
+        margin:0 auto;
+        width:100%;
+    }
+    .red, .blue, .green, .aliceblue, .black{
+        float: left;
+        width:100%;
+    }}
+
+@media screen and (min-width:576px) {
+    .container{
+        margin:0 auto;
+        width:100%;
+    }
+    .red, .blue, .green, .aliceblue{
+        float: left;
+        width:50%;
+    }
+    .black{
+        float:left;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width:993px) {
+    header{
+        background-color: yellow;
+        text-align:center;
+        padding-top: 0em;
+        width:33.333333%;
+        float: left;
+    }
+    
+        .black,.red, .blue, .green, .aliceblue{
+        float: left;
+        width:33.333333%;
+    }
+}
