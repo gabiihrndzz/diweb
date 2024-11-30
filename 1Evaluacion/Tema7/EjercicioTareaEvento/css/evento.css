@@ -14,6 +14,22 @@
     src: url('../font_types/BebasNeue-Regular.ttf') format('truetype');
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+
 body {
     background-color: rgb(0, 0, 0);
     display: flex;                
@@ -29,6 +45,7 @@ a{
     color: inherit;
     text-decoration: none; 
 }
+
 .titulo {
     font-family: 'Bebas', sans-serif; 
     font-size: 70px;
@@ -54,16 +71,14 @@ a{
 }
 
 .submenu.open {
-    display: flex;
+    display: block;
 }
 
-main{
+section{
     display: block;
     text-align: justify;
     line-height: 1.5;
-    margin-right: 200px;
     color:white;
-    margin-left: 200px;
     font-size: larger;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -75,8 +90,9 @@ main{
     background-size: cover;  
     background-position: center calc(10% - 100px); 
     height: 30%;
-    max-width: 100% ;
+    max-width: 100% ; 
 }
+
 
 nav{
     padding:10px;
@@ -156,7 +172,7 @@ img{
     max-width: 100%;
 }
 
-.logomain{
+.logosection{
     height: 30px;
     max-width: 100%;
 }
@@ -265,17 +281,688 @@ footer{
     margin-top: 50px;
     display: block;
     background-color: #A9FEF7;
-    font-family: 'Fredoka', sans-serif; 
+    font-family: 'Bebas', sans-serif; 
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .footer-social a {
+    font-family: 'Bebas', sans-serif;
     margin-left: 20px;
     margin-right: 20px;
     justify-content: space-between;
 
 }
+footer span {
+    font-family: 'Bebas', sans-serif;
+    }
+
 .h2footer{
-    font-family: Bebas, sans-serif;
+    font-family: 'Bebas', sans-serif;
+}
+
+@media (min-width: 1px) and (max-width: 576px)  {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .videoss {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;   
+    }
+
+    .vidiardo {
+        height: auto;        
+        width: 100%;          
+        max-width: 400px;    
+        margin-bottom: 20px; 
+    }
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .asides {
+        font-size: 13px;
+    }
+    .asideDcha,.asideCentro,.asideIzq{
+        width: 100%;
+        font-size: 25px;
+    }
+    .asideCentro{
+        display: flex;
+    }
+    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul,.duko,.yandel{
+        width: 100%;
+    }
+    .arandano{
+        background-position: calc(0% - 0px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 0px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 0px) center;
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .deibi{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .paul{
+        background-position: calc(0% - 0px) center;  
+    }
+    
+    .duko{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .yandel{
+        background-position: calc(0% - 0px) center;    
+    }
+    
+    footer{
+        margin-top:230px;
+    }
+    .footer-social a {
+        margin-left:4vh;
+        margin-right:4vh;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px)  {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .videoss {
+        display: flex;
+        justify-content: center; 
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .vidiardo {
+        height: auto;        
+        width: 100%;          
+        max-width: 400px;    
+        margin-bottom: 20px; 
+    }
+    
+    .asides {
+        font-size: 13px;
+    }
+    .asideDcha,.asideCentro,.asideIzq{
+        width: 100%;
+        font-size: 27px;
+    }
+
+    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul,.duko,.yandel{
+        width: 50%;
+    }
+    .arandano{
+        background-position: calc(0% - 150px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 155px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 50px) center;
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 150px) center;
+    }
+    
+    .deibi{
+        background-position: calc(0% - 50px) center;
+    }
+
+    .paul{
+        background-position: calc(0% - 150px) center;  
+    }
+    
+    .duko{
+        background-position: calc(0% - 150px) center;
+    }
+    
+    .yandel{
+        background-position: calc(0% - 70px) center;    
+    }
+    
+    footer{
+        margin-top:30px;
+    }
+    .footer-social a {
+        margin-left:9vh;
+        margin-right:9vh;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px)  {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+    
+    .videoss {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;   
+    }
+
+    .vidiardo {
+        height: auto;        
+        width: 100%;          
+        max-width: 400px;    
+        margin-bottom: 20px; 
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .asides {
+        font-size: 13px;
+    }
+    .asideDcha,.asideCentro,.asideIzq{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul,.duko,.yandel{
+        width: 50%;
+    }
+    .arandano{
+        background-position: calc(0% - 30px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 25px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 50px) center;
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 150px) center;
+    }
+    
+    .deibi{
+        background-position: calc(0% - 0px) center;
+    }
+
+    .paul{
+        background-position: calc(0% - 150px) center;  
+    }
+    
+    .duko{
+        background-position: calc(0% - 150px) center;
+    }
+    
+    .yandel{
+        background-position: calc(0% - 0px) center;    
+    }
+    
+    footer{
+        margin-top:30px;
+    }
+    .footer-social a {
+        margin-left:9vh;
+        margin-right:9vh;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px)  {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 23px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .videoss {
+        display: inline-block;
+        flex-wrap: wrap;
+        align-items: center;  
+        justify-content: center; 
+    }
+
+    .vidiardo {
+        height: auto;        
+        width: 100%;          
+        max-width: 300px;    
+        margin-bottom: 20px; 
+    }   
+
+    .asides {
+        font-size: 13px;
+    }
+    .asideDcha,.asideCentro,.asideIzq{
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul,.duko,.yandel{
+        width: 50%;
+    }
+    .arandano{
+        background-position: calc(0% - 0px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 0px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 0px) center;
+
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 0px) center;
+
+    }
+    
+    .deibi{
+        background-position: calc(0% - 0px) center;
+
+    }
+
+    .paul{
+        background-position: calc(0% - 0px) center;
+
+    }
+    
+    .duko{
+        background-position: calc(0% - 0px) center;
+
+    }
+    
+    .yandel{
+        background-position: calc(0% - 0px) center;
+
+    }
+    
+    footer{
+        margin-top:30px;
+    }
+    .footer-social a {
+        margin-left:9vh;
+        margin-right:9vh;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width:1200px) and (max-width: 1440px) {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 23px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .videoss {
+        display: inline-block;
+        flex-wrap: wrap;
+        align-items: center;  
+        justify-content: center; 
+    }
+
+    .vidiardo {
+        height: auto;        
+        width: 100%;          
+        max-width: 600px;    
+        margin-bottom: 20px; 
+    }   
+
+    .asides {
+        font-size: 53px;
+    }
+    .asideDcha,.asideCentro,.asideIzq{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
+        width: 33%;
+    }
+    .duko,.yandel{
+        width: 50%;
+    }
+    .arandano{
+        background-position: calc(0% - 130px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 140px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 30px) center;
+
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 140px) center;
+    }
+    
+    .deibi{
+        background-position: calc(0% - 50px) center;
+    }
+
+    .paul{
+        background-position: calc(0% - 80px) center;
+    }
+    
+    .duko{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .yandel{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    footer{
+        margin-top:30px;
+    }
+    .footer-social a {
+        margin-left:9vh;
+        margin-right:9vh;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width:1440px) and (max-width: 1840px) {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 23px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .videoss {
+        display: inline-block;
+        flex-wrap: wrap;
+        align-items: center;  
+        justify-content: center; 
+    }
+
+    .vidiardo {
+        height: auto;        
+        width: 100%;          
+        max-width: 600px;    
+        margin-bottom: 20px; 
+    }   
+
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .videoss {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;  
+        justify-content: center; 
+    }
+
+    .vidiardo {
+        height: auto;        
+        max-width: 600px;    
+        margin-bottom: 20px; 
+    }   
+    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
+        width: 33%;
+    }
+    .duko,.yandel{
+        width: 50%;
+    }
+    .arandano{
+        background-position: calc(0% - 130px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 140px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 30px) center;
+
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 140px) center;
+    }
+    
+    .deibi{
+        background-position: calc(0% - 0px) center;
+    }
+
+    .paul{
+        background-position: calc(0% - 80px) center;
+    }
+    
+    .duko{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .yandel{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    footer{
+        margin-top:30px;
+    }
+    .footer-social a {
+        margin-left:9vh;
+        margin-right:9vh;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width:1840px) {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 23px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
+        width: 33%;
+    }
+    .duko,.yandel{
+        width: 50%;
+    }
+    .arandano{
+        background-position: calc(0% - 130px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 140px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 30px) center;
+
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 140px) center;
+    }
+    
+    .deibi{
+        background-position: calc(0% - 0px) center;
+    }
+
+    .paul{
+        background-position: calc(0% - 80px) center;
+    }
+    
+    .duko{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .yandel{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    footer{
+        margin-top:30px;
+    }
+    .footer-social a {
+        margin-left:9vh;
+        margin-right:9vh;
+        justify-content: space-around;
+    }
+
 }
