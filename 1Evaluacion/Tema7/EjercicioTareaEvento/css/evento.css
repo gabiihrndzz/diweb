@@ -890,7 +890,7 @@ footer span {
 
 }
 
-@media (min-width:1840px) {
+@media (min-width:1840px) and (max-width:2500px) {
 
     .background_boombo {
         height: 100vh;
@@ -920,20 +920,17 @@ footer span {
         font-size: 18px;
     }
 
-    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
-        width: 33%;
-    }
-    .duko,.yandel{
-        width: 50%;
+    .duko,.yandel,.arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
+        width: 25%;
     }
     .arandano{
-        background-position: calc(0% - 130px) center;
+        background-position: calc(0% - 200px) center;
     }
     .quividi{
-        background-position: calc(0% - 140px) center;
+        background-position: calc(0% - 300px) center;
     }
     .eladios{
-        background-position: calc(0% - 30px) center;
+        background-position: calc(0% - 60px) center;
 
     }
     .cruzdescafeinada{
@@ -941,19 +938,65 @@ footer span {
     }
     
     .deibi{
-        background-position: calc(0% - 0px) center;
+        background-position: calc(0% - 30px) center;
     }
 
     .paul{
-        background-position: calc(0% - 80px) center;
+        background-position: calc(0% - 210px) center;
     }
     
     .duko{
-        background-position: calc(0% - 0px) center;
+        background-position: calc(0% - 300px) center;
     }
     
     .yandel{
         background-position: calc(0% - 0px) center;
+    }
+    
+    footer{
+        margin-top:30px;
+    }
+    .footer-social a {
+        margin-left:9vh;
+        margin-right:9vh;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width:3000px) {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 23px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .duko,.yandel,.arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
+        background-position: calc(0% - 0px) center;
+        width: 25%;
     }
     
     footer{
