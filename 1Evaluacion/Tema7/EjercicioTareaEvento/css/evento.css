@@ -890,7 +890,7 @@ footer span {
 
 }
 
-@media (min-width:1840px) and (max-width:3000px) {
+@media (min-width:1840px) and (max-width:2300px) {
 
     .background_boombo {
         height: 100vh;
@@ -964,7 +964,7 @@ footer span {
 
 }
 
-@media (min-width:3000px) {
+@media (min-width:2300px) {
 
     .background_boombo {
         height: 100vh;
