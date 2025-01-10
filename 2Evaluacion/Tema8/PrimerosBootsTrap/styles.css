@@ -5,10 +5,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-*{
-  margin:100px;
+ .d, h1{
+  text-align: center;
 }
-
+h1 {
+  color: aliceblue;
+}
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
