@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/evento.css">
+    <title>Evento Gabriel Hernandez</title>
+    <link rel="icon" href="imagenes/logo2.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <div  id="inicio" class="container">
+        <nav>
+        <div>
+            <a href="#inicio">INICIO</a><span>•</span>
+            <a href="#anteriores">ANTERIORES</a>
+        </div>
+        <div>
+            <a href="index.html"><img class="logo" src="imagenes/logo.webp" alt="Logo de Boombastic"></a><br>
+        </div>
+        <div>
+            <a href="#merch">INFORMACIÓN</a><span>•</span>
+            <a href="#merch">FOTOS</a>
+        </div>
+        </nav>
+        <div class="background_boombo">
+            <img class="flag" src="imagenes/Flag_of_Asturias.svg.png" alt="Bandera de Asturias">
+            <div class="titulo">Asturias 2024</div>
+        </div>
+
+        
+        <section >
+            <h3>¿Que es el Boombastic? <img class="logosection" src="imagenes/logo2.webp" alt="logo del Boombastic pequeño"> </h3>
+            <p>El Boombastic es un festival de música en el que acuden un sinfín de cantantes, la mayoría de género urbano (reggaetton, trap, rap). 
+            Actualmente se celebra en distintos sitios de España, entre ellos se encuentran Madrid o Las Palmas de Gran Canaria. <br><br>
+            Sin embargo, el mejor cartel de los últimos años, suele ser el de Asturias, trayendo cantantes como Quevedo, Eladio Carrion, Yandel, Paulo Londra, Duki, Bizarrap, Black Eyed Peas... 
+            Aunque tampoco las otras celebraciones de boombastic se quedan cortas, trayendo cantantes exclusivos a cada ciudad, como por ejemplo al Boombastic Canarias llevando a cantantes como Juseph o La Pantera. </p></section>
+
+            <section id="anteriores"><h3>Ediciones Anteriores</h3>
+            <p>La primera edición del festival Boombi se celebró en Asturias durante el verano de 2021 y tuvo como principal atracción a C. Tangana, uno de los artistas más reconocidos del momento. Esta elección como cabeza de cartel generó un gran interés entre el público joven, consolidando rápidamente al festival como una cita imprescindible en la región. La presencia de C. Tangana, junto con una programación atractiva y una organización cuidada, hizo que Boombi se destacara frente a otros festivales de música ya establecidos en Asturias. Esta competencia sana contribuyó a diversificar la oferta cultural y a reforzar la escena musical local, atrayendo a un público variado y entusiasta.<!--La primera edición en la que se celebro un festival Boombi fue en Asturias en el verano de 2021, con C.Tangana como cabeza de Cartel. Atrayendo mucho interés del público joven haciendole competencia a los otros festivales de música que habia en Asturias. --></p></section>
+                <div>
+                    <img src="imagenes/madrid2022.webp" alt="Cartel de Madrid 2022">
+                    <img style="height:500px;" src="imagenes/primero.jpg" alt="Primer cartel del boombastic" >
+                    <img src="imagenes/asturias2022.jpeg" alt="Cartel de Asturias 2022">
+                </div>
+            <section><p>A partir de aquella primera edición, el festival Boombi fue creciendo en popularidad y mejorando su cartel año tras año. Su expansión a distintas ciudades permitió llegar a un público más amplio, consolidándose como uno de los eventos musicales más destacados del panorama nacional. A pesar de este crecimiento, las ediciones de Asturias de 2023 y 2024 han sido consideradas las más destacadas hasta la fecha. Estos carteles no solo han contado con la participación de artistas de renombre, sino que también han ofrecido una programación variada y de alta calidad, convirtiendo a estas ediciones en auténticas referencias dentro del circuito de festivales en España.<!--A partir de ahí, el cartel fue mejorando y expandiéndose a distintas ciudades. Aunque los dos mejores carteles son los de Asturias en 2023 y 2024. --></p></section>
+        <div>
+            <img src="imagenes/cartelcds.jpg" alt="Cartel de Ciudad del sol 2024">
+            <img style="height:500px;" src="imagenes/boombocartelera.jpg" alt="Cartel de Asturias 2024">
+            <img style="height:500px;" src="imagenes/asturias2023.jpg" alt="Cartel de Asturias 2023">
+            <img src="imagenes/cartelpgc.jpg" alt="Cartel de Las Palmas 2023">
+        </div>
+
+        <section><p>A día de hoy, ya se han revelado algunos adelantos del cartel para la edición de 2025 del festival Boombi en Asturias, y las expectativas son altas. Entre los artistas destacados confirmados hasta el momento se encuentran Lucho RK, Nicky Jam y Alejo, nombres que prometen atraer a un público diverso y consolidar aún más la reputación del festival. La presencia de estos artistas refuerza la apuesta del Boombi por combinar talento internacional con figuras emergentes del panorama musical, asegurando una experiencia vibrante para los asistentes y manteniendo su posición como uno de los eventos más esperados del año.<!--A día de hoy, tenemos unos pequeños avances del nuevo cartel de Asturias en 2025, en los que se encuentran como destacados Lucho RK, Nicky Jam o Alejo.--></p></section>
+        
+        <div>
+            <img src="imagenes/2024ast.jpg" alt="Cartel de Asturias 2025">
+            <img src="imagenes/lulu.png " alt="Cartel de Lucho RK 2025">
+        </div>
+        <div id="fechas-de-los-eventos" class="elementor-tab-title eael-accordion-header show-this active" tabindex="0" data-tab="1" aria-controls="elementor-tab-content-9061">
+        <div class="asides">
+            <aside class="asideIzq">
+                <div class="submenu-container">
+                    <div class="btn submenu-btn">Ver Precios</div>
+            
+                    <div class="submenu">
+                        <div class="info">ENTRADAS DESDE 88€<br></div>
+                        <div class="entradasdesde"><br>Haz click para ir a las páginas:</div>
+                        <div class="enlaces">
+                            <a href="https://enterticket.net/boombasticasturiaszdescanso2025/">Entradas con Camping</a>
+                            <a href="https://enterticket.net/boombasticasturias2025/venta.php?c=&h=&id_evento=40216">Entradas</a>
+                            <a href="https://enterticket.net/boombasticasturias2025/venta.php?c=&h=&id_evento=41055">Entradas con Bono Cultural</a>
+                        </div>
+                        <div class="entradasdiv">
+                            <img class="entradas" src="imagenes/entradas.png" alt="imagen del texto que lleva la pagina de entradas">
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <aside class="asideDcha">
+                <div class="submenu-container">
+                    <div class="btn submenu-btn">¿Como llegar?</div>
+                    <div class="submenu">
+                        <div class="info">LANZADERAS + TRANSPORTE<br></div>
+                        <div class="entradasdesde"><br>TRENES</div>
+                        <div class="enlaces">
+                            <section>
+                                Renfe incrementará el servicio de Cercanías en las líneas C1 y C3 para facilitar el regreso de los asistentes al Festival Boombastic, con 10 trenes especiales durante las madrugadas del 19, 20 y 21 de julio. Estos trenes saldrán desde Lugo de Llanera hacia Gijón, Oviedo, Avilés y estaciones intermedias.
+                                <br><br>
+                            <b>Madrugada del 19 de julio:</b>
+                            <ul>
+                                <li>Oviedo: 04:00, 04:30, 05:00, 05:30, 05:40 y 06:10  </li>
+                                <li>Gijón: 04:54  </li>
+                                <li>Avilés: 05:15  </li>
+                            </ul>
+                            <br><br>
+                                <b>Madrugadas del 20 y 21 de julio:</b>
+                                <ul>
+                                <li>Se mantienen los servicios del día 19 y se añaden:</li>
+                                <li>Gijón: 06:10</li>
+                                <li>Avilés: 06:37</li>
+                                </ul>
+                                </section>
+                            </div>
+                            <div class="entradasdesde"><br>AUTOBUSES</div>
+                        <div class="enlaces">
+                            <section>Por solo 15€, se podrá adquirir un billete de ida y vuelta en autobús directo a Oviedo, Gijón y Avilés. Los autobuses tendrán salidas de ida entre las 16:00 y las 20:00 horas, y regresos entre las 03:00 y las 06:00 horas, con una frecuencia de paso cada 30 minutos.
+                                <br><br>
+                            <b>Puntos de salida:</b><ul>
+                            <li>Oviedo: Estación de Autobuses</li>
+                            <li>Gijón: Aparcamiento de El Molinón</li> 
+                            <li>Avilés: Estación de Autobuses (solo un autobús de ida a las 18:00 horas durante los tres días del festival)</li>
+                            </ul><br><br>
+                            <b>Lanzaderas nacionales:</b>
+                                <ul>
+                                <li>Disponibles para ciudades como Madrid, Barcelona, Pamplona, Valencia, Zaragoza y Sevilla, con precios entre 55€ y 125€.</li>
+                            </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <aside class="asideCentro">
+                <div class="submenu-container">
+                    <div class="btn submenu-btn">Videos - Front Stage - General</div>
+                    <div class="submenu">
+                        <div class="entradasdesde"><br></div>
+                        <div class="videoss">
+                            <figure> 
+                                <video class="vidiardo" controls muted loop>
+                                    <source src="imagenes/quevedo.mp4" type="video/mp4">
+                                </video>
+                            </figure>                         
+                             <figure> 
+                                <video class="vidiardo" controls muted loop>
+                                    <source src="imagenes/eladio.mp4" type="video/mp4">
+                                </video>
+                            </figure>
+                            <figure>
+                                <video class="vidiardo" controls muted loop>
+                                    <source src="imagenes/paulolondra.mp4" type="video/mp4">
+                                </video>
+                            </figure>
+                            <figure>
+                                <video class="vidiardo" controls muted loop>
+                                    <source src="imagenes/deiv.mp4" type="video/mp4">
+                                </video>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+           </div>
+
+        <div class="divardo">
+            <div class="arandano">
+                <h3 class="titulo1">Mora</h3>
+            </div>
+            <div class="quividi">
+                <h3 class="titulo1">Quevedo</h3>
+            </div>
+            <div class="eladios">
+                <h3 class="titulo1">Eladio<br>Carrión</h3>
+            </div>
+            <div class="cruzdescafeinada">
+                <h3 class="titulo1">Cruz<br>Cafuné</h3>
+            </div>
+            <div class="deibi">
+                <h3 class="titulo1">Dei V</h3>
+            </div>
+            <div class="paul">
+                <h3 class="titulo1">Paulo<br>Londra</h3>
+            </div>
+            <div class="duko">
+                <h3 class="titulo1">Duki</h3>
+            </div>
+            <div class="yandel">
+                <h3 class="titulo1">Yandel</h3>
+            </div>
+        </div>
+
+        
+        <footer>
+            <div class="footer-social">
+                <h2 class="h2footer">Redes sociales</h2>
+                <a href="https://www.instagram.com/BOOMBASTIC_FESTIVAL/" target="_blank">
+                    <span class="fab fa-instagram">Instagram</span> 
+                </a>
+                <a href="https://www.tiktok.com/@boombastic_festival?lang=es" target="_blank" >
+                    <i class="fab fa-tiktok">TikTok</i>
+                  </a>
+                <a href="https://www.facebook.com/boombasticfestival/" target="_blank">
+                    <span class="fab fa-facebook">Facebook</span>
+                </a>
+                <a href="https://open.spotify.com/user/5e79twm662x7nswa3fp9lbncl?si=_C0lkV_2TCCXXMryjhFhrQ" target="_blank">
+                    <span class="fab fa-spotify">Spotify</span> 
+                </a>
+                <h2 class="h2footer">Ubicación</h2>
+                <div>
+                    <div><i class="fas fa-map-marker-alt"></i> Avilés, Asturias, España</div>
+                </div>        
+            </div>
+            </footer>
+        </footer>
+    </div>
+    </div>
+   </body>
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script>
+    const submenuBtns = document.querySelectorAll('.submenu-btn');
+        submenuBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const submenu = btn.nextElementSibling;
+                if (submenu) {
+                    submenu.classList.toggle('open');
+                }
+            });
+        });
+    </script>
+</html>
+@font-face {
+    font-family: 'Fredoka';
+    src: url('../font_types/Fredoka-Bold.ttf') format('truetype'); 
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fredokazo';
+    src: url('../font_types/Fredoka-Medium.ttf') format('truetype'); 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../font_types/BebasNeue-Regular.ttf') format('truetype');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    display: flex;                
+    flex-direction: column;       
+    align-items: center;          
+    height: 100vh;                
+    margin: 0;                    
+    font-size: 20px;
+    text-align: center;
+}
+
+a{
+    color: inherit;
+    text-decoration: none; 
+}
+
+.titulo {
+    font-family: 'Bebas', sans-serif; 
+    font-size: 70px;
+    margin-top: -0px;
+    color: #A9FEF7; 
+    justify-content: flex-start;      
+    text-shadow: 10px 20px 30px rgba(255, 255, 255, 0.7); 
+}
+
+.titulo1 {
+    font-family: 'Bebas', sans-serif; 
+    font-size: 60px;
+    color: #fff; 
+    justify-content: flex-start;      
+    text-shadow: 10px 20px 30px rgba(0, 0, 0, 0.7); 
+}
+
+.submenu {
+    display: none;
+    flex-direction: column;
+    border-bottom: 1 px solid white;
+    padding-left: 20px;
+}
+
+.submenu.open {
+    display: block;
+}
+
+section{
+    display: block;
+    text-align: justify;
+    line-height: 1.5;
+    color:white;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.background_boombo{
+    background-image: url("../imagenes/boombopublico.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    background-position: center calc(10% - 100px); 
+    height: 30%;
+    max-width: 100% ; 
+}
+
+
+nav{
+    padding:10px;
+    position: -webkit-sticky;
+    position: sticky;
+    font-family: Bebas, sans-serif;
+    z-index: 100;
+    display: block;
+    align-items:flex-start;
+    background-color: black;
+    top: 0;
+}
+
+nav a,span{
+    color:white;
+    font-size: 30px;
+    
+}
+
+nav div{
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+.logo{
+    height: 80px;
+    background-position: center;
+}
+
+aside{
+    justify-content: space-around;
+}
+.asides{
+    margin-top:60px;
+    justify-content: space-around;
+    color:white;
+    display: flex;
+    flex-wrap: wrap; 
+    font-size: 50px;
+    font-family: Bebas, sans-serif;
+}
+
+.asideIzq{
+    border:1px solid #5955FB;
+    width: 49.895%;
+    color:#00E9CC;
+}
+
+.asideDcha{
+    width: 49.895%;
+    border:1px solid #5955FB;   
+    color:#00E9CC;
+}
+
+.asideCentro{
+    width: 99.895%;
+    display: flex;
+    color:#00E9CC;
+    border:1px solid #5955FB;   
+}
+
+.videoss{
+    display: flex;
+    height: auto;
+    max-width: auto;
+}
+.vidiardo{
+    height:100%;
+    width: 100%;
+}
+
+img{
+    height: 400px;
+    max-width: 100%;    
+}
+
+.entradasdiv{
+    max-width:100%;
+    justify-content: center;
+}
+.entradas{
+
+    height: auto;
+    width: 80%;
+}
+
+.bombocartel{
+    height: 1900px;
+    max-width: 100%;
+}
+
+.logosection{
+    height: 30px;
+    max-width: 100%;
+}
+
+.flag{
+    height: 40px;
+    max-width: 10%;
+    margin-top: 10px;
+}
+
+.divardo {
+    margin-top: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    height: 1600px;
+    width: 100% ;
+}
+
+.enlaces{
+    margin:10px;
+    color: rgb(43, 194, 253);
+    font-size: 24px;
+    font-family: Fredokazo,sans-serif;
+}
+
+.enlaces a{
+    justify-content: space-between;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.info{
+    color:white;
+    font-size: 35px;
+    font-family: Fredoka,sans-serif;
+}
+
+.entradasdesde{
+    color:white;
+    font-size: 30px;
+    font-family: Fredokazo,sans-serif;
+    margin-bottom: 20px;
+}
+
+.arandano{
+    background-image: url("../imagenes/mora.jpg");
+    width: 25%;
+    background-size:cover;  
+    background-position: calc(0% - 120px) center;
+
+}
+.quividi{
+    background-image: url("../imagenes/quevedo.webp");
+    width: 25%;
+    background-size:cover;  
+    background-position: calc(0% - 250px) center;
+
+}
+.eladios{
+    background-image: url("../imagenes/eladio.jpg");
+    width: 25%;
+    background-position: calc(0% - 150px) center;
+    background-size:cover;  
+}
+.cruzdescafeinada{
+    background-image: url("../imagenes/cafein.jpg");
+    width: 25%;
+    background-size:cover;  
+    background-position: calc(0% - 250px) center;
+
+}
+
+.deibi{
+    background-image: url("../imagenes/deiv.jpg");
+    width: 25%;
+    background-size:cover;  
+    background-position: calc(0% - 80px) center;
+}
+
+
+.paul{
+    background-image: url("../imagenes/paul.jpg");
+    width: 25%;
+    background-size:cover;
+    background-position: calc(0% - 250px) center;  
+}
+
+.duko{
+    background-image: url("../imagenes/duko.jpg");
+    width: 25%;
+    background-size:cover;  
+    background-position: calc(0% - 450px) center;
+
+}
+
+.yandel{
+    background-image: url("../imagenes/yandel.webp");
+    width: 25%;
+    background-size:cover;  
+    background-position: calc(0% - 150px) center;
+
+}
+
+footer{
+    margin-top: 50px;
+    display: block;
+    background-color: #A9FEF7;
+    font-family: 'Bebas', sans-serif; 
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-social a {
+    font-family: 'Bebas', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+
+}
+footer span {
+    font-family: 'Bebas', sans-serif;
+    }
+
+.h2footer{
+    font-family: 'Bebas', sans-serif;
+}
+
+@media (min-width: 1px) and (max-width: 576px)  {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .videoss {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;   
+    }
+
+    .vidiardo {
+        height: auto;        
+        width: 100%;          
+        max-width: 400px;    
+        margin-bottom: 20px; 
+    }
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .asides {
+        font-size: 13px;
+    }
+    .asideDcha,.asideCentro,.asideIzq{
+        width: 100%;
+        font-size: 25px;
+    }
+    .asideCentro{
+        display: flex;
+    }
+    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul,.duko,.yandel{
+        width: 100%;
+    }
+    .arandano{
+        background-position: calc(0% - 0px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 0px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 0px) center;
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .deibi{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .paul{
+        background-position: calc(0% - 0px) center;  
+    }
+    
+    .duko{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .yandel{
+        background-position: calc(0% - 0px) center;    
+    }
+    
+    footer{
+        margin-top:230px;
+    }
+    .footer-social a {
+        margin-left:4vh;
+        margin-right:4vh;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px)  {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .videoss {
+        display: flex;
+        justify-content: center; 
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .vidiardo {
+        height: auto;        
+        width: 100%;          
+        max-width: 400px;    
+        margin-bottom: 20px; 
+    }
+    
+    .asides {
+        font-size: 13px;
+    }
+    .asideDcha,.asideCentro,.asideIzq{
+        width: 100%;
+        font-size: 27px;
+    }
+
+    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul,.duko,.yandel{
+        width: 50%;
+    }
+    .arandano{
+        background-position: calc(0% - 150px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 155px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 50px) center;
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 150px) center;
+    }
+    
+    .deibi{
+        background-position: calc(0% - 50px) center;
+    }
+
+    .paul{
+        background-position: calc(0% - 150px) center;  
+    }
+    
+    .duko{
+        background-position: calc(0% - 150px) center;
+    }
+    
+    .yandel{
+        background-position: calc(0% - 70px) center;    
+    }
+    
+    footer{
+        margin-top:30px;
+    }
+    .footer-social a {
+        margin-left:9vh;
+        margin-right:9vh;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px)  {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+    
+    .videoss {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;   
+    }
+
+    .vidiardo {
+        height: auto;        
+        width: 100%;          
+        max-width: 400px;    
+        margin-bottom: 20px; 
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .asides {
+        font-size: 13px;
+    }
+    .asideDcha,.asideCentro,.asideIzq{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul,.duko,.yandel{
+        width: 50%;
+    }
+    .arandano{
+        background-position: calc(0% - 30px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 25px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 50px) center;
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 150px) center;
+    }
+    
+    .deibi{
+        background-position: calc(0% - 0px) center;
+    }
+
+    .paul{
+        background-position: calc(0% - 150px) center;  
+    }
+    
+    .duko{
+        background-position: calc(0% - 150px) center;
+    }
+    
+    .yandel{
+        background-position: calc(0% - 0px) center;    
+    }
+    
+    footer{
+        margin-top:30px;
+    }
+    .footer-social a {
+        margin-left:9vh;
+        margin-right:9vh;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px)  {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 23px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .videoss {
+        display: inline-block;
+        flex-wrap: wrap;
+        align-items: center;  
+        justify-content: center; 
+    }
+
+    .vidiardo {
+        height: auto;        
+        width: 100%;          
+        max-width: 300px;    
+        margin-bottom: 20px; 
+    }   
+
+    .asides {
+        font-size: 13px;
+    }
+    .asideDcha,.asideCentro,.asideIzq{
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul,.duko,.yandel{
+        width: 50%;
+    }
+    .arandano{
+        background-position: calc(0% - 0px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 0px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 0px) center;
+
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 0px) center;
+
+    }
+    
+    .deibi{
+        background-position: calc(0% - 0px) center;
+
+    }
+
+    .paul{
+        background-position: calc(0% - 0px) center;
+
+    }
+    
+    .duko{
+        background-position: calc(0% - 0px) center;
+
+    }
+    
+    .yandel{
+        background-position: calc(0% - 0px) center;
+
+    }
+    
+    footer{
+        margin-top:30px;
+    }
+    .footer-social a {
+        margin-left:9vh;
+        margin-right:9vh;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width:1200px) and (max-width: 1440px) {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 23px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .videoss {
+        display: inline-block;
+        flex-wrap: wrap;
+        align-items: center;  
+        justify-content: center; 
+    }
+
+    .vidiardo {
+        height: auto;        
+        width: 100%;          
+        max-width: 600px;    
+        margin-bottom: 20px; 
+    }   
+
+    .asides {
+        font-size: 53px;
+    }
+    .asideDcha,.asideCentro,.asideIzq{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
+        width: 33%;
+    }
+    .duko,.yandel{
+        width: 50%;
+    }
+    .arandano{
+        background-position: calc(0% - 130px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 140px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 30px) center;
+
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 140px) center;
+    }
+    
+    .deibi{
+        background-position: calc(0% - 50px) center;
+    }
+
+    .paul{
+        background-position: calc(0% - 80px) center;
+    }
+    
+    .duko{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .yandel{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    footer{
+        margin-top:30px;
+    }
+    .footer-social a {
+        margin-left:9vh;
+        margin-right:9vh;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width:1440px) and (max-width: 1840px) {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 23px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .videoss {
+        display: inline-block;
+        flex-wrap: wrap;
+        align-items: center;  
+        justify-content: center; 
+    }
+
+    .vidiardo {
+        height: auto;        
+        width: 100%;          
+        max-width: 600px;    
+        margin-bottom: 20px; 
+    }   
+
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .videoss {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;  
+        justify-content: center; 
+    }
+
+    .vidiardo {
+        height: auto;        
+        max-width: 600px;    
+        margin-bottom: 20px; 
+    }   
+    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
+        width: 33%;
+    }
+    .duko,.yandel{
+        width: 50%;
+    }
+    .arandano{
+        background-position: calc(0% - 130px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 140px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 30px) center;
+
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 140px) center;
+    }
+    
+    .deibi{
+        background-position: calc(0% - 0px) center;
+    }
+
+    .paul{
+        background-position: calc(0% - 80px) center;
+    }
+    
+    .duko{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .yandel{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    footer{
+        margin-top:30px;
+    }
+    .footer-social a {
+        margin-left:9vh;
+        margin-right:9vh;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width:1840px) and (max-width:2300px) {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 23px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .duko,.yandel,.arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
+        width: 25%;
+    }
+    .arandano{
+        background-position: calc(0% - 200px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 300px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 60px) center;
+
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 140px) center;
+    }
+    
+    .deibi{
+        background-position: calc(0% - 30px) center;
+    }
+
+    .paul{
+        background-position: calc(0% - 210px) center;
+    }
+    
+    .duko{
+        background-position: calc(0% - 300px) center;
+    }
+    
+    .yandel{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    footer{
+        margin-top:30px;
+    }
+    .footer-social a {
+        margin-left:9vh;
+        margin-right:9vh;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width:2300px) {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        font-size: 23px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .enlaces a {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .duko,.yandel,.arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
+        background-position: calc(0% - 0px) center;
+        width: 25%;
+    }
+    
+    footer{
+        margin-top:30px;
+    }
+    .footer-social a {
+        margin-left:9vh;
+        margin-right:9vh;
+        justify-content: space-around;
+    }
+
+}

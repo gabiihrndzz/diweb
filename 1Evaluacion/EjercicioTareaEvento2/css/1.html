@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Example</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: grid;
+            height: 100vh;
+            grid-template-rows: 60px 1fr;
+            grid-template-columns: 250px 1fr;
+            grid-template-areas: 
+                "header header"
+                "sidebar main";
+        }
+
+        header {
+            grid-area: header;
+            background-color: #4CAF50;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+        }
+
+        aside {
+            grid-area: sidebar;
+            background-color: #2F4F4F;
+            color: white;
+            padding: 1em;
+        }
+
+        main {
+            grid-area: main;
+            padding: 1em;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 200px);
+            gap: 1em;
+        }
+
+        .widget {
+            background-color: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 1.2em;
+        }
+
+        .widget.large {
+            grid-column: span 2;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Dashboard Header
+</header>
+
+<aside>
+    <nav>
+        <ul>
+            <li><a href="#" style="color: white; text-decoration: none;">Home</a></li>
+            <li><a href="#" style="color: white; text-decoration: none;">Profile</a></li>
+            <li><a href="#" style="color: white; text-decoration: none;">Settings</a></li>
+            <li><a href="#" style="color: white; text-decoration: none;">Logout</a></li>
+        </ul>
+    </nav>
+</aside>
+
+<main>
+    <div class="widget">Widget 1</div>
+    <div class="widget">Widget 2 (Large)</div>
+    <div class="widget">Widget 3</div>
+    <div class="widget">Widget 4</div>
+    <div class="widget">Widget 5 (Large)</div>
+    <div class="widget">Widget 6</div>
+</main>
+
+</body>
+</html>

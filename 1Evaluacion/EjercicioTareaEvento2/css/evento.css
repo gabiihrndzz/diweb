@@ -1,0 +1,571 @@
+@font-face {
+    font-family: 'Fredoka';
+    src: url('../font_types/Fredoka-Bold.ttf') format('truetype'); 
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fredokazo';
+    src: url('../font_types/Fredoka-Medium.ttf') format('truetype'); 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../font_types/BebasNeue-Regular.ttf') format('truetype');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    display: flex;                
+    flex-direction: column;       
+    align-items: center;          
+    height: 100vh;                
+    margin: 0;                    
+    font-size: 20px;
+    text-align: center;
+}
+
+a{
+    color: inherit;
+    text-decoration: none; 
+}
+
+.titulo {
+    font-family: 'Bebas', sans-serif; 
+    font-size: 70px;
+    margin-top: -0px;
+    color: #A9FEF7; 
+    justify-content: flex-start;      
+    text-shadow: 10px 20px 30px rgba(255, 255, 255, 0.7); 
+}
+
+.titulo1 {
+    font-family: 'Bebas', sans-serif; 
+    font-size: 60px;
+    color: #fff; 
+    justify-content: flex-start;      
+    text-shadow: 10px 20px 30px rgba(0, 0, 0, 0.7); 
+}
+
+.submenu {
+    display: none;
+    flex-direction: column;
+    border-bottom: 1 px solid white;
+    padding-left: 20px;
+}
+
+.submenu.open {
+    display: block;
+}
+
+.sec1{
+    display:flex;
+    justify-content:space-between;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.textin{
+    margin-right: 40px;
+}    
+
+.sec1 img{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.larga{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    margin-right: 40px;
+    margin-left: 40px;
+    display: block;
+    text-align: justify;
+    line-height: 1.5;
+    color:white;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.background_boombo{
+    background-image: url("../imagenes/boombopublico.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    background-position: center calc(10% - 100px); 
+    height: 17%;
+    max-width: 100% ; 
+}
+
+nav{
+    padding:10px;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    display: block;
+    background-color: black;
+    top: 0;
+    color:white;
+}
+
+
+.menu a{
+    font-size: 25px;
+    font-family: 'Bebas', sans-serif; 
+}
+
+
+.logo{
+    height: 80px;
+    background-position: center;
+}
+
+aside{
+    justify-content: space-around;
+}
+.asides{
+    margin-top:60px;
+    justify-content: space-around;
+    color:white;
+    display: flex;
+    flex-wrap: wrap; 
+    font-size: 50px;
+    font-family: Bebas, sans-serif;
+}
+
+.asideIzq{
+    border:1px solid #5955FB;
+    width: 49.895%;
+    color:#00E9CC;
+}
+
+.asideDcha{
+    width: 49.895%;
+    border:1px solid #5955FB;   
+    color:#00E9CC;
+}
+
+.asideCentro{
+    width: 99.895%;
+    display: flex;
+    color:#00E9CC;
+    border:1px solid #5955FB;   
+}
+.videoss {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+}
+
+.vidiardo {
+    padding:10px ;
+    height: auto;        
+    width: 100%;          
+    margin-bottom: 20px; 
+}
+
+img{
+    height: 400px;
+    max-width: 100%;    
+}
+
+.entradasdiv{
+    max-width:100%;
+    justify-content: center;
+}
+.entradas{
+
+    height: auto;
+    width: 80%;
+}
+
+.bombocartel{
+    height: 1900px;
+    max-width: 100%;
+}
+
+.logosection{
+    height: 120px;
+    max-width: 100%;
+}
+.quees{
+    display: inline-block;
+}
+.flag{
+    height: 40px;
+    max-width: 10%;
+    margin-top: 10px;
+}
+
+
+.enlaces{
+    margin:10px;
+    color: rgb(43, 194, 253);
+    font-size: 24px;
+    font-family: Fredokazo,sans-serif;
+}
+
+.enlaces a{
+    justify-content: space-between;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.info{
+    color:white;
+    font-size: 35px;
+    font-family: Fredoka,sans-serif;
+}
+
+.entradasdesde{
+    color:white;
+    font-size: 30px;
+    font-family: Fredokazo,sans-serif;
+    margin-bottom: 20px;
+}
+.divardo {
+    margin-top: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+}        
+
+.arandano, .quividi, .eladios, .cruzdescafeinada, .deibi, .paul, .duko, .yandel {
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.duko,.yandel,.arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
+    background-repeat: no-repeat; 
+    background-size:cover;  
+}
+.arandano {
+    background-image: url("../imagenes/mora.jpg");
+    background-position: calc(0% - 0px) center;    
+}
+
+.quividi {
+    background-image: url("../imagenes/quevedo.webp");
+    background-position: calc(0% - 0px) center;    
+}
+
+.eladios {
+    background-image: url("../imagenes/eladio.jpg");
+    background-position: calc(0% - 0px) center;    
+}
+
+.cruzdescafeinada {
+    background-image: url("../imagenes/cafein.jpg");
+    background-position: calc(0% - 0px) center;    
+}
+
+.deibi {
+    background-image: url("../imagenes/deiv.jpg");
+    background-position: calc(0% - 0px) center;    
+}
+
+.paul {
+    background-image: url("../imagenes/paul.jpg");
+    background-position: calc(0% - 0px) center;    
+}
+
+.duko {
+    background-image: url("../imagenes/duko.jpg");
+    background-position: calc(0% - 0px) center;    
+}
+
+.yandel {
+    background-image: url("../imagenes/yandel.webp");
+    background-position: calc(0% - 0px) center;    
+}
+footer{
+    margin-top: 50px;
+    display: grid;
+    background-color: #A9FEF7;
+    font-family: 'Bebas', sans-serif; 
+    justify-content: space-between;
+    padding-top: 20px;
+    grid-template-columns: repeat(2,1fr);
+}
+.footer-social a {
+    font-family: 'Bebas', sans-serif;
+    margin-left: 20px;
+}
+
+footer span {
+    font-family: 'Bebas', sans-serif;
+    }
+.patro{
+    grid-column: span 2;
+    max-height: 100%;
+}
+.patrocin{
+    height:  auto;
+    max-width: 100%;
+}
+.h2footer{
+    font-family: 'Bebas', sans-serif;
+}
+
+
+
+@media (min-width: 1px) and (max-width: 576px)  {
+
+    .menu, .menu a{
+        font-size: 0px;
+    }
+    
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .divardo{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .container{
+        width: 100%;
+    }
+
+    section{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 2.5vh;
+    }
+
+    .videoss {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;   
+    }
+
+    .vidiardo {
+        height: auto;        
+        width: 100%;          
+        margin-bottom: 20px; 
+    }
+    .enlaces a {
+        margin: 10px;
+    }
+
+
+    .asideDcha,.asideCentro,.asideIzq{
+        width: 100%;
+    }
+    .asideCentro{
+        display: flex;
+    }
+    
+    .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul,.duko,.yandel{
+        width: 100%;
+    }
+    .arandano{
+        background-position: calc(0% - 0px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 0px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 0px) center;
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .deibi{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .paul{
+        background-position: calc(0% - 0px) center;  
+    }
+    
+    .duko{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .yandel{
+        background-position: calc(0% - 0px) center;    
+    }
+    .duko,.yandel,.arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
+        background-repeat: no-repeat; 
+        background-size:cover;  
+    }
+    footer{
+        margin-top: 50px;
+        display: block;
+        background-color: #A9FEF7;
+        font-family: 'Bebas', sans-serif; 
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-social a {
+        font-family: 'Bebas', sans-serif;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: space-between;
+    
+    }
+    footer span {
+        font-family: 'Bebas', sans-serif;
+        }
+    .patrocin{
+        height: 100%;
+    }
+    .h2footer{
+        font-family: 'Bebas', sans-serif;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 992px)  {
+
+    .background_boombo {
+        height: 100vh;
+        background-position: center top;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    section{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .enlaces a {
+        margin: 10px;
+    }
+    
+    .videoss {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;   
+    }
+
+    .vidiardo {
+        height: auto;  
+        padding: 10px;      
+        width: 100%;          
+        margin-bottom: 20px; 
+    }
+
+    .info, .entradasdesde {
+        font-size: 18px;
+    }
+
+    .asideDcha,.asideCentro,.asideIzq{
+        width: 100%;
+        font-size: 50px;
+    }
+    .divardo {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    }    
+    .arandano{
+        background-position: calc(0% - 0px) center;
+    }
+    .quividi{
+        background-position: calc(0% - 0px) center;
+    }
+    .eladios{
+        background-position: calc(0% - 0px) center;
+
+    }
+    .cruzdescafeinada{
+        background-position: calc(0% - 0px) center;
+
+    }
+    
+    .deibi{
+        background-position: calc(0% - 0px) center;
+
+    }
+
+    .paul{
+        background-position: calc(0% - 0px) center;
+
+    }
+    
+    .duko{
+        background-position: calc(0% - 0px) center;
+    }
+    
+    .yandel{
+        background-position: calc(0% - 0px) center;
+
+    }
+    .duko,.yandel,.arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
+        background-repeat: no-repeat; 
+        background-size:cover;  
+    }
+    
+    footer{
+        margin-top: 50px;
+        display: block;
+        background-color: #A9FEF7;
+        font-family: 'Bebas', sans-serif; 
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-social a {
+        font-family: 'Bebas', sans-serif;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: space-between;
+    
+    }
+    footer span {
+        font-family: 'Bebas', sans-serif;
+        }
+    .patrocin{
+        height: 100%;
+    }
+    .h2footer{
+        font-family: 'Bebas', sans-serif;
+    }
+    
+}

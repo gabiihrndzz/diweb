@@ -345,12 +345,9 @@ footer span {
         font-size: 18px;
     }
 
-    .asides {
-        font-size: 13px;
-    }
     .asideDcha,.asideCentro,.asideIzq{
         width: 100%;
-        font-size: 25px;
+        font-size: 50px;
     }
     .asideCentro{
         display: flex;
@@ -405,7 +402,7 @@ footer span {
     }
 
     .titulo {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .container{
@@ -441,12 +438,9 @@ footer span {
         margin-bottom: 20px; 
     }
     
-    .asides {
-        font-size: 13px;
-    }
     .asideDcha,.asideCentro,.asideIzq{
         width: 100%;
-        font-size: 27px;
+        font-size: 50px;
     }
 
     .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul,.duko,.yandel{
@@ -536,12 +530,9 @@ footer span {
         font-size: 18px;
     }
 
-    .asides {
-        font-size: 13px;
-    }
     .asideDcha,.asideCentro,.asideIzq{
         width: 100%;
-        font-size: 30px;
+        font-size: 50px;
     }
 
     .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul,.duko,.yandel{
@@ -631,12 +622,9 @@ footer span {
         margin-bottom: 20px; 
     }   
 
-    .asides {
-        font-size: 13px;
-    }
     .asideDcha,.asideCentro,.asideIzq{
         width: 100%;
-        font-size: 35px;
+        font-size: 56px;
     }
 
     .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul,.duko,.yandel{
@@ -732,12 +720,9 @@ footer span {
         margin-bottom: 20px; 
     }   
 
-    .asides {
-        font-size: 53px;
-    }
     .asideDcha,.asideCentro,.asideIzq{
         width: 100%;
-        font-size: 40px;
+        font-size: 62px;
     }
 
     .arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
@@ -806,6 +791,10 @@ footer span {
         font-size: 23px;
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+    .asideDcha,.asideCentro,.asideIzq{
+        font-size: 70px;
     }
 
     .videoss {
@@ -898,7 +887,7 @@ footer span {
     }
 
     .titulo {
-        font-size: 40px;
+        font-size: 80px;
     }
 
     .container{
@@ -906,7 +895,7 @@ footer span {
     }
 
     section{
-        font-size: 23px;
+        font-size: 28px;
         margin-left: 100px;
         margin-right: 100px;
     }
@@ -918,6 +907,10 @@ footer span {
 
     .info, .entradasdesde {
         font-size: 18px;
+    }
+
+    .asideDcha,.asideCentro,.asideIzq{
+        font-size: 60px;
     }
 
     .duko,.yandel,.arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
@@ -972,30 +965,39 @@ footer span {
     }
 
     .titulo {
-        font-size: 40px;
+        font-size: 80px;
     }
 
     .container{
         width: 100%;
     }
 
+    div img {
+        height: 800px;
+        max-width: auto;
+        justify-content: space-between;
+    }
     section{
-        font-size: 23px;
-        margin-left: 100px;
-        margin-right: 100px;
+        font-size: 53px;
+        margin-left: 200px;
+        margin-right: 200px;
     }
 
     .enlaces a {
-        font-size: 14px;
+        font-size: 53px;
         margin: 10px;
     }
 
     .info, .entradasdesde {
-        font-size: 18px;
+        font-size: 53px;
+    }
+
+    .asideDcha,.asideCentro,.asideIzq{
+        font-size: 80px;
     }
 
     .duko,.yandel,.arandano,.quividi,.eladios,.cruzdescafeinada,.deibi,.paul{
-        background-position: calc(0% - 0px) center;
+        background-position: calc(0% - 200px) center;
         width: 25%;
     }
     
