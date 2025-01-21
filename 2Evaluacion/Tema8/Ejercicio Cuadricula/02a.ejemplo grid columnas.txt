@@ -1,0 +1,7 @@
+Fila Artículo-Sidebar: 
+sm 8 - 4
+md 9 - 3
+
+Fila con 4 Columnas:
+sm 6 
+md 3
