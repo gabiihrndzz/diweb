@@ -1,0 +1,206 @@
+<!--
+     Course: Maquetando con BootStrap 5
+     By: OpenWebinars.net
+     File: proyecto_curso.html
+     Author: Juan Diego Pérez Jiménez @pekechis
+     Date: January 2023
+     Descripción: Mini-Proyecto de Maquetación actualizado a Bootstrap 5.3
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Proyecto Práctico Curso BootStrap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Course CSS -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <!-- HEADER -->
+      <div class="row justify-content-center">
+        <div class="col-4 col-md-3 col-lg-2">
+          <img src="img/logo.jpg" class="img-fluid" alt="Logo" />
+        </div>
+      </div>
+      <!-- MENU -->
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-md navbar-light bg-success text-white">
+            <button 
+              class="navbar-toggler" 
+              type="button" 
+              data-bs-toggle="collapse" 
+              data-bs-target="#navbarText" 
+              aria-controls="navbarText" 
+              aria-expanded="false" 
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="#">Inicio <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Menú Item 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Menú Item 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Menú Item 3</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Menú Item 4</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Menú Item 5</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- CONTENIDO IMÁGENES-->
+      <div class="row mt-3">
+        <div class="col-12 col-md-6">
+          <div class="ratio ratio-4x3">
+              <iframe 
+                src="https://www.youtube.com/embed/9-SUmFFlhOY" 
+                frameborder="0" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen>
+              </iframe>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row mt-3">
+            <div class="col-6">
+              <figure class="figure">
+                <img src="img/img1.jpg" class="img-fluid rounded" alt="Imagen 1">
+                <figcaption class="figure-caption text-center">Fotografía realizada por @pekechis</figcaption>
+              </figure>
+            </div>
+            <div class="col-6">
+              <figure class="figure">
+                <img src="img/img2.jpg" class="img-fluid rounded" alt="Imagen 2">
+                <figcaption class="figure-caption text-center">Fotografía realizada por @pekechis</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <figure class="figure">
+                <img src="img/img3.jpg" class="img-fluid rounded" alt="Imagen 3">
+                <figcaption class="figure-caption text-center">Fotografía realizada por @pekechis</figcaption>
+              </figure>
+            </div>
+            <div class="col-6">
+              <figure class="figure">
+                <img src="img/img4.jpg" class="img-fluid rounded" alt="Imagen 4">
+                <figcaption class="figure-caption text-center">Fotografía realizada por @pekechis</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CONTENIDOS Curso -->
+      <p class="display-4 text-center bg-success text-white">
+        SECCION
+      </p>
+      <div class="row justify-content-center">
+        <div class="col-11">
+          <div class="row justify-content-around bg-light rounded p-3 m-2">
+            <div class="col-md-3 position-relative">
+              <h3 class="position-absolute sobre">VENDIDO</h3>
+              <img src="img/logo.jpg" class="img-fluid rounded" alt="Producto vendido">
+              <p class="text-center">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="col-md-3 position-relative">
+              <h3 class="position-absolute sobre">VENDIDO</h3>
+              <img src="img/logo.jpg" class="img-fluid rounded" alt="Producto vendido">
+              <p class="text-center">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="col-md-3 position-relative">
+              <h3 class="position-absolute sobre">VENDIDO</h3>
+              <img src="img/logo.jpg" class="img-fluid rounded" alt="Producto vendido">
+              <p class="text-center">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CABECERA DE SECCIÓN -->
+      <p class="display-4 text-center bg-success text-white">
+        CONTACTO
+      </p>
+      <!-- FORMULARIO -->
+      <div class="row justify-content-center">
+        <div class="col-sm-6 col-md-4">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre:</label>
+              <input class="form-control" id="name" type="text" name="name">
+            </div>
+            <div class="mb-3">
+              <label for="lastname" class="form-label">Apellidos</label>
+              <input class="form-control" id="lastname" type="text" name="lastname">
+            </div>
+            <div class="mb-3">
+              <label for="description" class="form-label">Descripción:</label>
+              <textarea class="form-control" id="description"></textarea>
+            </div>
+            <div class="mt-3 text-end">
+              <button class="btn btn-success mb-3" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <h3 class="bg-success rounded p-2 text-white">Contacta con nosotros</h3>
+          <p>
+            Tú eres lo más importante para nosotros. Estaremos 24h al día disponibles
+            para solucionar cualquiera de tus dudas.
+          </p>
+        </div>
+      </div>
+
+      <!-- PIE -->
+      <div class="row bg-success justify-content-center p-1">
+        <div class="col-6 w-100">
+          <p class="text-center text-white">
+            Web desarrollada por @pekechis para el curso de OpenWebinars
+          </p>
+        </div>
+      </div>
+      <div class="row bg-success justify-content-center p-1">
+        <div class="col-2 col-md-1">
+          <img src="img/twitter.png" class="img-fluid" alt="Twitter">
+        </div>
+        <div class="col-2 col-md-1">
+          <img src="img/facebook.png" class="img-fluid" alt="Facebook">
+        </div>
+        <div class="col-2 col-md-1">
+          <img src="img/youtube.png" class="img-fluid" alt="YouTube">
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

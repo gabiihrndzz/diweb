@@ -1,0 +1,72 @@
+.titulo1 {
+    font-size: 4rem;
+}
+.texto1 {
+    font-size: 1.6rem;
+}
+.titulo {
+    font-size: 3rem;
+}
+.texto {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 1200px) {
+    .titulo1 {
+        font-size: 3rem;
+    }
+    .texto1 {
+        font-size: 1.4rem;
+    }
+    .titulo {
+        font-size: 2.5rem;
+    }
+    .texto {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .titulo1 {
+        font-size: 2.4rem;
+    }
+    .texto1 {
+        font-size: 1.3rem;
+    }
+    .titulo {
+        font-size: 2rem;
+    }
+    .texto {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo1 {
+        font-size: 1.8rem;
+    }
+    .texto1 {
+        font-size: 1.2rem;
+    }
+    .titulo {
+        font-size: 1.5rem;
+    }
+    .texto {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .titulo1 {
+        font-size: 1.5rem;
+    }
+    .texto1 {
+        font-size: 1rem;
+    }
+    .titulo {
+        font-size: 1.2rem;
+    }
+    .texto {
+        font-size: 0.8rem;
+    }
+}

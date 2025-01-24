@@ -4,13 +4,6 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
- .d, h1{
-  text-align: center;
-}
-h1 {
-  color: aliceblue;
-}
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -44,13 +37,12 @@ h1 {
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  /*Cambiar color text primary (text-primary) aqui*/
-  --bs-primary-rgb: 11, 40, 123;
+  --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
-  --bs-danger-rgb: 110, 53, 69;
+  --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
   --bs-primary-text-emphasis: #052c65;
@@ -760,7 +752,7 @@ progress {
 
 @media (min-width: 576px) {
   .container-sm, .container {
-    max-width: 540px;
+    max-width: 600px;
   }
 }
 @media (min-width: 768px) {
