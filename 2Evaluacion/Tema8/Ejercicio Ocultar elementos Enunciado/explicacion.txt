@@ -1,0 +1,5 @@
+Busca en el apartado Utilities,Display de la página de Bootstrap
+
+Ejemplos:
+d-block d-sm-none: Este elemento será visible hasta dispositivos pequeños(sm).
+d-none d-md-block: Este elemento será visible desde dispositivos medianos(md).
