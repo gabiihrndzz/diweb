@@ -1,0 +1,2 @@
+Realiza el formulario del diseño1. 
+No debe ser responsive pero ell formulario debe de ocupar 1/3 del ancho de la pantalla en dispositivos de escritorio

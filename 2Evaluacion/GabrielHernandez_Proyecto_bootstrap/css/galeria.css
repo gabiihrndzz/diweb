@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Fredoka';
+    src: url('../font_types/Fredoka-Bold.ttf') format('truetype'); 
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fredokazo';
+    src: url('../font_types/Fredoka-Medium.ttf') format('truetype'); 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../font_types/BebasNeue-Regular.ttf') format('truetype');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.logo{
+    height: 80px;
+    background-position: center;
+}
+
+nav{
+    font-family:'Bebas', sans-serif;
+}
+.titulo{
+    font-family:'Fredokazo', sans-serif;
+
+}
+.CarruselTitulo{
+    font-family:'Bebas', sans-serif;
+    font-size: 100px;
+    text-shadow: 3px 3px 3px black;
+    /* efectoneon
+    h1 {
+        color: #0ff;
+        text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+    } */
+    
+}
