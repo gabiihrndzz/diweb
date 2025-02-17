@@ -1,0 +1,19 @@
+*{
+  background-color: black;
+
+}
+
+ .fuente_smooch {
+   font-family: 'Smooch', serif;
+ }
+
+ .color_darkviolet {
+   color:#2700d3
+ }
+ 
+ .headline {
+    color:#ff0000;
+    font-size: 120px;
+    font-family: 'Smooch', serif;
+   text-align: center;
+ }
