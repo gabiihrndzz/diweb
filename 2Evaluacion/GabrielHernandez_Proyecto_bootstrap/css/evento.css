@@ -23,7 +23,7 @@ nav, .titulo, footer {
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    background: #111;
+    background: #000000;
     padding: 10px 0;
 }
 
@@ -33,24 +33,23 @@ nav, .titulo, footer {
     animation: scroll 80s linear infinite;
 }
 
-.marquesina-contenido-clon {
-    display: inline-block;
-    white-space: nowrap;
-}
 
 .marquesina img {
     height: 400px; /* Ajusta según necesites */
     margin: 20 0px;
+    border: 2px solid white;
+    border-radius: 4%;
 }
 
 @keyframes scroll {
     from {
-        transform: translateX(-100%);
+        transform: translateX(0);
     }
     to {
-        transform: translateX(100%);
+        transform: translateX(-10%);
     }
 }
+
 .flag{
     height: 40px;
     max-width: 10%;
