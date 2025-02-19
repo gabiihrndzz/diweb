@@ -1,25 +1,14 @@
-@font-face {
-    font-family: 'Fredoka';
-    src: url('../font_types/Fredoka-Bold.ttf') format('truetype'); 
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Fredokazo';
-    src: url('../font_types/Fredoka-Medium.ttf') format('truetype'); 
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'Bebas';
     src: url('../font_types/BebasNeue-Regular.ttf') format('truetype');
 }
-
 html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-nav, .titulo{
+nav, .titulo, footer {
     font-family:'Bebas', sans-serif;
 }
 p{
@@ -34,13 +23,47 @@ p{
     background-position: center;
 }
 
-
-
 .CarruselTitulo{
     font-family:'Bebas', sans-serif;
     font-size: 100px;
-    text-shadow: 3px 3px 3px black;
-    
+    text-shadow: 3px 3px 3px black;  
 }
 
-  
+a{
+    color:inherit;
+    text-decoration: none; 
+}
+
+.footer-social a {
+    text-decoration: none;
+    transition: color 0.1s ease-in-out;
+    margin-left: 20px;
+    font-family: 'Bebas', sans-serif;
+}
+
+.footer-social a:hover {
+    color: rgb(119, 114, 114); /* Cambia a un gris más claro */
+}
+
+footer {
+    background-color: #15BFFD;
+}
+
+.patro {
+    grid-column: span 2;
+}
+.text-custom-lb{
+    color:#FFCA6A;
+}
+.text-custom-as{
+    color:#0063F7;
+}
+.text-custom-lpgc{
+    color:#F7C600;
+}
+.text-custom-arriba{
+    color:#0dcaf0;
+}
+.text-custom-videos1{
+    color:#FF83CB;
+}
