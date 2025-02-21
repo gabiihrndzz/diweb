@@ -10,14 +10,15 @@ html, body {
 nav, .titulo, footer {
     font-family:'Bebas', sans-serif;
 }
-.background_boombo{
+.background_boombo {
     background-image: url("../imagenes/boombopublico.jpg");
-    background-repeat: no-repeat; 
-    background-size: cover;  
-    background-position: center calc(10% - 100px); 
-    height: 100%;
-    max-width: 100% ; 
-}
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;  
+    max-width: 100%;
+  }
+  
 
 .marquesina {
     overflow: hidden;
@@ -30,7 +31,7 @@ nav, .titulo, footer {
 .marquesina-contenido {
     display: inline-block;
     white-space: nowrap;
-    animation: scroll 80s linear infinite;
+    animation: scroll 60s linear infinite;
 }
 
 
@@ -46,7 +47,7 @@ nav, .titulo, footer {
         transform: translateX(0);
     }
     to {
-        transform: translateX(-10%);
+        transform: translateX(-100%);
     }
 }
 
@@ -93,6 +94,8 @@ a{
 footer {
     background-color: #15BFFD;
 }
+
+
 
 /* @media (min-width: 1px) and (max-width: 576px)  {
 
