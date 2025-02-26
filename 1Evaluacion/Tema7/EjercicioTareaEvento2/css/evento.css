@@ -357,6 +357,16 @@ footer .footer-social, a, span{
 object-fit: contain;    
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.img-fluid {
+    width: 100%; /* Hace que todas ocupen el mismo ancho dentro de su contenedor */
+    height: 300px; /* Ajusta la altura según necesites */
+    object-fit: cover; /* Asegura que las imágenes mantengan proporciones y llenen el espacio */
+  }
 @media (min-width: 1px) and (max-width: 576px)  {
 
     

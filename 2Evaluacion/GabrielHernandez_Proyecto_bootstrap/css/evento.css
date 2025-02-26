@@ -19,8 +19,20 @@ nav, .titulo, footer {
     max-width: 100%;
   }
   
-
-.marquesina {
+  a {
+    color: inherit !important; /* Hereda el color del padre y fuerza la aplicación */
+    text-decoration: none !important; /* Elimina el subrayado */
+  }
+  
+  a h2 {
+    color: inherit !important; /* Asegura que los títulos dentro del enlace también hereden el color */
+  }
+  
+  a:hover {
+    color: inherit !important; /* Mantiene el color al pasar el mouse */
+  }
+  
+  .marquesina {
     overflow: hidden;
     white-space: nowrap;
     position: relative;

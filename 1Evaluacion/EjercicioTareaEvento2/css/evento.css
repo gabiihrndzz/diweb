@@ -184,7 +184,16 @@ aside{
     width: 100%;          
     margin-bottom: 20px; 
 }
+a{
+    color: inherit;
+    text-decoration: none;
+}
 
+.img-fluid {
+    width: 100%; /* Hace que todas ocupen el mismo ancho dentro de su contenedor */
+    height: 300px; /* Ajusta la altura según necesites */
+    object-fit: cover; /* Asegura que las imágenes mantengan proporciones y llenen el espacio */
+  }
 img{
     height: 400px;
     max-width: 100%;    
