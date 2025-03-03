@@ -11,108 +11,120 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
-<body class="bg-black col-12">
-    <div class="container-fluid"> 
-        <div class="row">
-            <nav class="navbar navbar-expand-lg bg-info fixed-top ">
-                  <a class="navbar-brand text-light fs-1" href="#"><img class="logo" src="imagenes/boombo.ico" alt="Logo de Boombastic"></a>
-                <br>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link text-light fs-3 ms-2 " aria-current="page" href="index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-light fs-3 ms-2 " href="portfolio/anteriores.html">Anteriores</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light fs-3 ms-2 " role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Informacion
+<body class="bg-black">
+  <div class="container-fluid p-5">
+    <div class="row">
+        <nav class="navbar navbar-expand-lg bg-info justify-content-around fixed-top">
+            <a class="navbar-brand text-light fs-1" href="index.html">
+                <img class="logo" src="imagenes/boombo.ico" alt="Logo de Boombastic">
+            </a>
+            <br>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-3 ms-2" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-3 ms-2" href="portfolio/anteriores.html">Anteriores</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light fs-3 ms-2" href="#" role="button" data-bs-toggle="dropdown" 
+                            aria-expanded="false">
+                            Información
                         </a>
-                        <ul class="dropdown-menu ms-2 ">
-                          <li><a class="dropdown-item" href="portfolio/lanzaderas.html">Lanzaderas</a></li>
-                          <li><a class="dropdown-item" href="portfolio/entradas.html">Entradas</a></li>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="lanzaderas.html">Lanzaderas</a></li>
+                            <li><a class="dropdown-item" href="entradas.html">Entradas</a></li>
                         </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-light fs-3 ms-2 " href="portfolio/galeria.html" >Galeria</a>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-                </div>
-  
-              </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-3 ms-2" href="portfolio/galeria.html">Galería</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
               <div class="d-flex flex-column justify-content-center align-items-center vh-100 background_boombo">
                 <div class="titulo display-1 text-light">BOOMBASTIC FESTIVAL </div>
                 <img class="col-1" src="imagenes/Flag_of_Asturias.svg.png" alt="Bandera de Asturias">
             </div>
             
-        <div class="container">
-            <div>
+            <div class="container">
               <div class="row my-3 text-white d-flex me-1 ms-1 align-items-center">
-                <div class="col-12 col-md-8 col-lg-8 texto">
-                    <h4><strong>✨MULTICIUDAD | MULTIEXPERIENCIA | PURA MÚSICA</strong></h4>
-                    <p>Boombastic no es solo un festival, es una celebración de la música, la cultura y la conexión entre personas. Desde su primera edición, ha sido un punto de encuentro para amantes de la música de todo el mundo, ofreciendo experiencias inolvidables y un ambiente vibrante.</p>
-                    
-                    <h4>🌍 SEDES Y DESTINOS</h4>
-                    <p>Este año, Boombastic llevará su energía única a varias ciudades, incluyendo la impresionante Costa del Sol, la mágica Asturias y la vibrante Madrid. Cada sede cuenta con escenarios espectaculares, producciones de primer nivel y una atmósfera incomparable.</p>
-                    
-                    <h4>🎶 CARTEL DE LUJO</h4>
-                    <p>El Boombastic Festival se enorgullece de presentar un cartel repleto de artistas nacionales e internacionales, abarcando géneros como el pop, urbano, indie y electrónica. Desde estrellas consolidadas hasta talentos emergentes, cada edición es una oportunidad única para disfrutar de lo mejor de la música en vivo.</p>
-                </div>
-                  <div class="col-12 col-md-4 col-lg-4 ">
-                    <div class="card container bg-black mt-5">
-                      <img src="imagenes/boombo1.jpg" class="img-fluid rounded border border-white border-2" alt="Cartel de la Costa del Sol 2024" data-bs-toggle="modal" data-bs-target="#imagenModal2">
-                    </div>                    
-                </div>
+                  <!-- Texto -->
+                  <div class="col-12 col-md-8 texto">
+                      <h4><strong>✨MULTICIUDAD | MULTIEXPERIENCIA | PURA MÚSICA</strong></h4>
+                      <p>Boombastic no es solo un festival, es una celebración de la música, la cultura y la conexión entre personas. Desde su primera edición, ha sido un punto de encuentro para amantes de la música de todo el mundo, ofreciendo experiencias inolvidables y un ambiente vibrante.</p>
+                      
+                      <h4>🌍 SEDES Y DESTINOS</h4>
+                      <p>Este año, Boombastic llevará su energía única a varias ciudades, incluyendo la impresionante Costa del Sol, la mágica Asturias y la vibrante Madrid. Cada sede cuenta con escenarios espectaculares, producciones de primer nivel y una atmósfera incomparable.</p>
+                      
+                      <h4>🎶 CARTEL DE LUJO</h4>
+                      <p>El Boombastic Festival se enorgullece de presentar un cartel repleto de artistas nacionales e internacionales, abarcando géneros como el pop, urbano, indie y electrónica. Desde estrellas consolidadas hasta talentos emergentes, cada edición es una oportunidad única para disfrutar de lo mejor de la música en vivo.</p>
+                  </div>
+                  <!-- Imagen -->
+                  <div class="col-12 col-md-4">
+                      <div class="card bg-black mt-3 mt-md-5">
+                          <img src="imagenes/boombo1.jpg" class="img-fluid rounded border border-white border-2" 
+                               alt="Cartel de la Costa del Sol 2024" data-bs-toggle="modal" data-bs-target="#imagenModal2">
+                      </div>
+                  </div>
               </div>
-
+          
               <div class="row my-3 text-white d-flex me-1 ms-1 align-items-center">
-                <div class="col-12 col-md-4 col-lg-4 ">
-                  <div class="card container bg-black mt-5">
-                    <img src="imagenes/logu.webp" class="img-fluid rounded border border-white border-2" alt="Cartel de la Costa del Sol 2024" data-bs-toggle="modal" data-bs-target="#imagenModal1">
-                  </div>                    
-              </div>
-
-                <div class="col-12 col-md-8 col-lg-8 texto">
-                  <h4>🚀 MUCHO MÁS QUE UN FESTIVAL</h4>
-                  <p>Boombastic es una experiencia multisensorial que combina música, arte, gastronomía y actividades interactivas. Disfruta de zonas chill-out, mercadillos, food trucks y afterparties exclusivas, diseñadas para que cada día del festival sea inolvidable.</p>
-                  
-                  <h4>🔥 BOOMBASTIC 2024: EL EVENTO QUE NO TE PUEDES PERDER</h4>
-                  <p>Si eres un verdadero amante de la música y la diversión, este festival es para ti. Únete a miles de personas que ya han vivido la experiencia Boombastic y prepárate para una edición que promete superar todas las expectativas.</p>
-                  
-                  <p>📅 <strong>¡Las entradas ya están a la venta!</strong> No te quedes fuera, consigue la tuya ahora.</p>
-                  <p>📍 <strong>Síguenos en redes sociales para más sorpresas y actualizaciones.</strong></p>
+            
+                <!-- Texto (abajo en xs y sm, arriba en md en adelante) -->
+                <div class="col-12 col-sm-8 order-sm-1 order-md-0 texto">
+                    <h4>🚀 MUCHO MÁS QUE UN FESTIVAL</h4>
+                    <p>Boombastic es una experiencia multisensorial que combina música, arte, gastronomía y actividades interactivas. Disfruta de zonas chill-out, mercadillos, food trucks y afterparties exclusivas, diseñadas para que cada día del festival sea inolvidable.</p>
+            
+                    <h4>🔥 BOOMBASTIC 2024: EL EVENTO QUE NO TE PUEDES PERDER</h4>
+                    <p>Si eres un verdadero amante de la música y la diversión, este festival es para ti. Únete a miles de personas que ya han vivido la experiencia Boombastic y prepárate para una edición que promete superar todas las expectativas.</p>
+            
+                    <p>📅 <strong>¡Las entradas ya están a la venta!</strong> No te quedes fuera, consigue la tuya ahora.</p>
+                    <p>📍 <strong>Síguenos en redes sociales para más sorpresas y actualizaciones.</strong></p>
                 </div>
+                <div class="col-12 col-sm-4 order-sm-0 order-md-1">
+                  <div class="card bg-black mt-3 mt-sm-4">
+                      <img src="imagenes/logu.webp" class="img-fluid rounded border border-white border-2" alt="Cartel de la Costa del Sol 2024">
+                  </div>
               </div>
             </div>
-
+            
           </div>
-
-          <div class="container-fluid">
+          
+          <div class="container-fluid col-sm-12">
             <div class="display-3 text-light text-center titulo">ENTRADAS</div>
             <div class="fs-4 text-light text-center mb-4">Haz click para ir a las páginas</div>
-            <div class="container ">
-            <div class="text-light text-center d-flex gap-3">
-                <div>
-                  <a href="https://enterticket.net/boombasticgrancanaria2025/venta.php"><h2>GRAN CANARIA</h2>
-                  <img src="imagenes/cartelpgc.jpg" class="img-fluid" alt="cartelera asturias 2025"></a>
-                </div>
-                <div>
-                    <a href="https://enterticket.net/boombasticasturias2025/venta.php"><h2>ASTURIAS</h2>
-                      <img src="imagenes/asturias2025.jpg" class="img-fluid" alt="cartelera asturias 2025"></a>
-                </div>
-                <div>
-                  <a href="https://enterticket.net/boombasticgrancanaria2025/venta.php"><h2>COSTA DEL SOL </h2>
-                  <img src="imagenes/cartelcds.jpg" class="img-fluid" alt="cartelera asturias 2025"></a>
+            <div class="container">
+                <div class="row text-light text-center gx-3"> <!-- Usar row y gx-3 para separación -->
+                    <div class="col-xs-12 col-md-4 mb-3"> <!-- Ocupa todo el ancho en móviles y 1/3 en pantallas medianas en adelante -->
+                        <a href="https://enterticket.net/boombasticgrancanaria2025/venta.php">
+                            <h2>GRAN CANARIA</h2>
+                            <img src="imagenes/cartelpgc.jpg" class="img-fluid" alt="Cartel Gran Canaria 2025">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-md-4 mb-3">
+                        <a href="https://enterticket.net/boombasticasturias2025/venta.php">
+                            <h2>ASTURIAS</h2>
+                            <img src="imagenes/asturias2025.jpg" class="img-fluid" alt="Cartel Asturias 2025">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-4 mb-3">
+                        <a href="https://enterticket.net/boombasticgrancanaria2025/venta.php">
+                            <h2>COSTA DEL SOL</h2>
+                            <img src="imagenes/cartelcds.jpg" class="img-fluid" alt="Cartel Costa del Sol 2025">
+                        </a>
+                    </div>
                 </div>
             </div>
-          </div>
-          </div>
+        </div>
+                  </div>
 
           <div class="container-fluid">
             <div class="display-3 text-light text-center titulo">MERCH</div>
@@ -141,9 +153,9 @@
             <div class="container text-light">
             <div class="display-3  text-light text-center titulo">Dudas</div>
             <div class="col-12 d-flex justify-content-around ">
-              <div class="col-5 ">
+              <div class="col-12 ">
                 <div class="text-justify border rounded-4 p-2" style="border-width: 18px;">
-                  <div class="border p-1 border-2">
+                  <div class="border  p-1 border-2">
                       <h2>⚠️ Información Importante para Menores</h2>
                       <p><strong>Menores de 16 años:</strong> Deben presentar una autorización firmada por su padre, madre o tutor legal y acceder al recinto acompañados por un adulto responsable.</p>
                       <p><strong>Menores de 16 y 17 años:</strong> Pueden acceder solos, pero es obligatorio presentar una autorización firmada por su padre, madre o tutor legal.</p>
@@ -170,56 +182,51 @@
                         <li><strong>Abono Greenzone:</strong> Incluye acceso Front Stage, VIP, parking VIP, 5 consumiciones y un Welcome Pack Boombastic. (<span style="color: red;">Solo +18 años</span>)</li>
                     </ul>
                   </div>
-                </div>
+                <div class="border p-1 border-2">
+                  <h2>⏰ ¿Puedo entrar al recinto a cualquier hora?</h2>
+                  <p>Próximamente se dará más información.</p>
               </div>
-              <div class="col-5">
-                <div class="text-justify border rounded-4 p-2" style="border-width: 18px;">
-                  <div class="border p-1 border-2">
-                    <h2>⏰ ¿Puedo entrar al recinto a cualquier hora?</h2>
-                    <p>Próximamente se dará más información.</p>
-                </div>
-                
-                <div class="border p-1 border-2">
-                  <h2>🎟️ ¿Puedo comprar una entrada de reventa?</h2>
-                  <p>La reventa está prohibida. Se recomienda comprar solo en el canal oficial del festival.</p>
-                </div>
+              
+              <div class="border p-1 border-2">
+                <h2>🎟️ ¿Puedo comprar una entrada de reventa?</h2>
+                <p>La reventa está prohibida. Se recomienda comprar solo en el canal oficial del festival.</p>
+              </div>
+        
+              <div class="border p-1 border-2">
+                  <h2>♿ ABONOS PMR</h2>
+                  <p>Para adquirir un abono PMR/APMR, compra el abono general y escribe a <a href="mailto:info@boombasticfestival.com">info@boombasticfestival.com</a> para modificarlo.</p>
+              </div>
           
-                <div class="border p-1 border-2">
-                    <h2>♿ ABONOS PMR</h2>
-                    <p>Para adquirir un abono PMR/APMR, compra el abono general y escribe a <a href="mailto:info@boombasticfestival.com">info@boombasticfestival.com</a> para modificarlo.</p>
-                </div>
-            
-                <div class="border p-1 border-2">
-                    <h2>💳 CASHLESS</h2>
-                    <h5>¿No tengo pulsera, qué hago?</h5>
-                    <p>Nadie la recibe hasta días antes del festival. Se recarga con el código de la entrada.</p>
-            
-                    <h5>¿Cuándo puedo recargar mi pulsera?</h5>
-                    <p>Se recomienda hacerlo antes del festival para evitar colas y aprovechar promociones.</p>
-            
-                    <h5>¿Cómo solicitar el saldo restante?</h5>
-                    <ul>
-                        <li>Introducir el identificador de la pulsera o código de la entrada en el formulario (se descontarán 2,50€ por gestión).</li>
-                        <li>Proporcionar datos personales y bancarios.</li>
-                        <li>Recibir el saldo en la cuenta bancaria en un máximo de 20 días hábiles.</li>
-                    </ul>
-                </div>
-                <div class="border p-1 border-2"> 
-                    <h2>🔄 ¿Qué es el Flexiticket?</h2>
-                    <p>Es un seguro opcional que permite solicitar el reembolso hasta 30 días antes del festival. No se reembolsa el costo del Flexiticket ni los gastos de gestión.</p>
-                </div>
-            </div>
+              <div class="border p-1 border-2">
+                  <h2>💳 CASHLESS</h2>
+                  <h5>¿No tengo pulsera, qué hago?</h5>
+                  <p>Nadie la recibe hasta días antes del festival. Se recarga con el código de la entrada.</p>
+          
+                  <h5>¿Cuándo puedo recargar mi pulsera?</h5>
+                  <p>Se recomienda hacerlo antes del festival para evitar colas y aprovechar promociones.</p>
+          
+                  <h5>¿Cómo solicitar el saldo restante?</h5>
+                  <ul>
+                      <li>Introducir el identificador de la pulsera o código de la entrada en el formulario (se descontarán 2,50€ por gestión).</li>
+                      <li>Proporcionar datos personales y bancarios.</li>
+                      <li>Recibir el saldo en la cuenta bancaria en un máximo de 20 días hábiles.</li>
+                  </ul>
+              </div>
+              <div class="border p-1 border-2"> 
+                  <h2>🔄 ¿Qué es el Flexiticket?</h2>
+                  <p>Es un seguro opcional que permite solicitar el reembolso hasta 30 días antes del festival. No se reembolsa el costo del Flexiticket ni los gastos de gestión.</p>
+              </div>
           </div>
-                </div>
+            </div>
               </div>
             </div>
             </div>
         </div>
         <hr>
         <div class="display-3 titulo text-light text-center">Iniciar Sesión</div>
-        <div class="container rounded-1 bg-info p-3">
+        <div class="col-sm-12 col-lg-6 container rounded-1 bg-info p-3">
         <form id="inicioSesion" action="">
-          <div class="row">
+          <div class="row ">
               <div class="col-12 col-sm-6">
                   <label for="nombre" class="form-label fs-5">Nombre: </label>
                   <input type="text" id="nombre" name="nombre" class="form-control" required >
