@@ -51,6 +51,10 @@ a{
 footer {
     background-color: #15BFFD;
 }
+a {
+    color: inherit !important; /* Hereda el color del padre y fuerza la aplicación */
+    text-decoration: none !important; /* Elimina el subrayado */
+  }
 
 .patro {
     grid-column: span 2;
