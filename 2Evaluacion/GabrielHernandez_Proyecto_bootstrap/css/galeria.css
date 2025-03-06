@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Bebas';
     src: url('../font_types/BebasNeue-Regular.ttf') format('truetype');
@@ -12,65 +11,18 @@ nav, .titulo, footer {
     font-family:'Bebas', sans-serif;
 }
 p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-a{
-    text-decoration: none;
-    color: inherit;
-}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
-.logo{
-    height: 80px;
-    background-position: center;
-}
 
-.CarruselTitulo{
-    font-family:'Bebas', sans-serif;
-    font-size: 100px;
-    text-shadow: 3px 3px 3px black;  
-}
-
-a{
-    color:inherit;
-    text-decoration: none; 
-}
-
-.footer-social a {
-    text-decoration: none;
-    transition: color 0.1s ease-in-out;
-    margin-left: 20px;
-    font-family: 'Bebas', sans-serif;
-}
-
-.footer-social a:hover {
-    color: rgb(119, 114, 114); /* Cambia a un gris más claro */
-}
-
-footer {
-    background-color: #15BFFD;
-}
 a {
     color: inherit !important; /* Hereda el color del padre y fuerza la aplicación */
     text-decoration: none !important; /* Elimina el subrayado */
   }
 
-.patro {
-    grid-column: span 2;
-}
-.text-custom-lb{
-    color:#FFCA6A;
-}
-.text-custom-as{
-    color:#0063F7;
-}
-.text-custom-lpgc{
-    color:#F7C600;
-}
 .text-custom-arriba{
     color:#0dcaf0;
-}
-.text-custom-videos1{
-    color:#FF83CB;
-}
+ }

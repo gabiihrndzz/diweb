@@ -2,34 +2,28 @@
     font-family: 'Bebas';
     src: url('../font_types/BebasNeue-Regular.ttf') format('truetype');
 }
+
 html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
+
 nav, .titulo, footer {
     font-family:'Bebas', sans-serif;
 }
+
 .background_boombo {
     background-image: url("../imagenes/boombopublico.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 800px;  
-    max-width: 100%;
-  }
+}
   
-  a {
-    color: inherit !important; /* Hereda el color del padre y fuerza la aplicación */
-    text-decoration: none !important; /* Elimina el subrayado */
-  }
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
   
-  a h2 {
-    color: inherit !important; /* Asegura que los títulos dentro del enlace también hereden el color */
-  }
-  
-  
-  .marquesina {
+.marquesina {
     overflow: hidden;
     white-space: nowrap;
     position: relative;
@@ -42,7 +36,6 @@ nav, .titulo, footer {
     white-space: nowrap;
     animation: scroll 60s linear infinite;
 }
-
 
 .marquesina img {
     height: 400px; /* Ajusta según necesites */
@@ -60,46 +53,6 @@ nav, .titulo, footer {
     }
 }
 
-.flag{
-    height: 40px;
-    max-width: 10%;
-    margin-top: 10px;
-}
-
-p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
 *, *::before, *::after {
     box-sizing: border-box;
-}
-.logo{
-    height: 80px;
-    background-position: center;
-}
-
-.CarruselTitulo{
-    font-family:'Bebas', sans-serif;
-    font-size: 100px;
-    text-shadow: 3px 3px 3px black;  
-}
-
-a{
-    color:inherit;
-    text-decoration: none; 
-}
-
-.footer-social a {
-    text-decoration: none;
-    transition: color 0.1s ease-in-out;
-    margin-left: 20px;
-    font-family: 'Bebas', sans-serif;
-}
-
-.footer-social a:hover {
-    color: rgb(119, 114, 114); /* Cambia a un gris más claro */
-}
-
-footer {
-    background-color: #15BFFD;
 }
