@@ -1,58 +1,64 @@
-@font-face {
-    font-family: 'Bebas';
-    src: url('../font_types/BebasNeue-Regular.ttf') format('truetype');
-}
+    
+        @font-face {
+            font-family: 'Bebas';
+            src: url('../font_types/BebasNeue-Regular.ttf') format('truetype');
+        }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
 
-nav, .titulo, footer {
-    font-family:'Bebas', sans-serif;
-}
+        nav, .titulo, footer {
+            font-family:'Bebas', sans-serif;
+        }
 
-.background_boombo {
-    background-image: url("../imagenes/boombopublico.jpg");
-    background-size: cover;
-    background-position: center;
-}
-  
-p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-  
-.marquesina {
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
-    background: #000000;
-    padding: 10px 0;
-}
+        .background_boombo {
+            background-image: url("../imagenes/boombopublico.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        
+        .marquesina {
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+            background: #000000;
+            padding: 10px 0;
+        }
 
-.marquesina-contenido {
-    display: inline-block;
-    white-space: nowrap;
-    animation: scroll 60s linear infinite;
-}
+        .marquesina-contenido {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scroll 60s linear infinite;
+        }
 
-.marquesina img {
-    height: 400px; /* Ajusta según necesites */
-    margin: 20 0px;
-    border: 2px solid white;
-    border-radius: 4%;
-}
+        .marquesina img {
+            height: 400px; /* Ajusta según necesites */
+            margin: 20px;
+            border: 2px solid white;
+            border-radius: 4%;
+        }
 
-@keyframes scroll {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-100%);
-    }
-}
+        @keyframes scroll {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+        a {
+            color: inherit !important; /* Hereda el color del padre y fuerza la aplicación */
+            text-decoration: none !important; /* Elimina el subrayado */
+        }
 
-*, *::before, *::after {
-    box-sizing: border-box;
-}
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
